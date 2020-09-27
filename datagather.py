@@ -73,3 +73,5 @@ with open('linklistsort.txt', 'r') as datafile:
         if not link_url:
             break
             link_url.close()
+
+# comment, delete later
