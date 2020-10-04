@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 
 # Alfa-Rome Page Test
 
-
 def ss_scrapecontent(page_url):
 
     # Source scrape
