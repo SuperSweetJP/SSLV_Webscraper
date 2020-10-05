@@ -1,7 +1,15 @@
+import mysql.connector
 import re
 import os
 import requests
 from bs4 import BeautifulSoup
+
+db = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="anubissayshello",
+  database="sslv"
+)
 
 #hard coded category for now
 #ToDo rework into main loop that passes all categories later on
@@ -21,7 +29,7 @@ def scrapeListPage(pageLink):
     
     return unique_link_set
 
-def categoryLoop(catLink):
+def categoryPageLoop(catLink):
     #screape the original page
     processLinksDb(scrapeListPage(catLink))
     i = 2
@@ -38,5 +46,14 @@ def categoryLoop(catLink):
 def processLinksDb(linkList):
     for link in linkList:
         print(link)
+        #check if link already in db
+        #if not write new record
 
-categoryLoop(categoryLink)
+        #if yes, check if same header
+
+            #if yes, update last seen
+
+            #if no, write new record
+
+
+#categoryPageLoop(categoryLink)
