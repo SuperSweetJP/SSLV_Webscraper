@@ -1,5 +1,49 @@
-import categoryGather
+all_models = ["https://www.ss.lv/lv/transport/cars/alfa-romeo/",
+"https://www.ss.lv/lv/transport/cars/audi/",
+"https://www.ss.lv/lv/transport/cars/bmw/",
+"https://www.ss.lv/lv/transport/cars/cadillac/",
+"https://www.ss.lv/lv/transport/cars/chevrolet/",
+"https://www.ss.lv/lv/transport/cars/chrysler/",
+"https://www.ss.lv/lv/transport/cars/citroen/",
+"https://www.ss.lv/lv/transport/cars/dacia/",
+"https://www.ss.lv/lv/transport/cars/daewoo/",
+"https://www.ss.lv/lv/transport/cars/dodge/",
+"https://www.ss.lv/lv/transport/cars/fiat/",
+"https://www.ss.lv/lv/transport/cars/ford/",
+"https://www.ss.lv/lv/transport/cars/honda/",
+"https://www.ss.lv/lv/transport/cars/hyundai/",
+"https://www.ss.lv/lv/transport/cars/infiniti/",
+"https://www.ss.lv/lv/transport/cars/jaguar/",
+"https://www.ss.lv/lv/transport/cars/jeep/",
+"https://www.ss.lv/lv/transport/cars/kia/",
+"https://www.ss.lv/lv/transport/cars/lancia/",
+"https://www.ss.lv/lv/transport/cars/land-rover/",
+"https://www.ss.lv/lv/transport/cars/lexus/",
+"https://www.ss.lv/lv/transport/cars/mazda/",
+"https://www.ss.lv/lv/transport/cars/mercedes/",
+"https://www.ss.lv/lv/transport/cars/mini/",
+"https://www.ss.lv/lv/transport/cars/mitsubishi/",
+"https://www.ss.lv/lv/transport/cars/nissan/",
+"https://www.ss.lv/lv/transport/cars/opel/",
+"https://www.ss.lv/lv/transport/cars/peugeot/",
+"https://www.ss.lv/lv/transport/cars/porsche/",
+"https://www.ss.lv/lv/transport/cars/renault/",
+"https://www.ss.lv/lv/transport/cars/saab/",
+"https://www.ss.lv/lv/transport/cars/seat/",
+"https://www.ss.lv/lv/transport/cars/skoda/",
+"https://www.ss.lv/lv/transport/cars/ssangyong/",
+"https://www.ss.lv/lv/transport/cars/subaru/",
+"https://www.ss.lv/lv/transport/cars/suzuki/",
+"https://www.ss.lv/lv/transport/cars/toyota/",
+"https://www.ss.lv/lv/transport/cars/volkswagen/",
+"https://www.ss.lv/lv/transport/cars/volvo/",
+"https://www.ss.lv/lv/transport/cars/moskvich/",
+"https://www.ss.lv/lv/transport/cars/uaz/",
+"https://www.ss.lv/lv/transport/cars/gaz/",
+"https://www.ss.lv/lv/transport/cars/vaz/",
+"https://www.ss.lv/lv/transport/cars/others/",]
 
-
-#hard coded list of model categories
-#one by one and run categoryGather.categoryPageLoop(link)
+output = ""
+for model in all_models:
+    output += model + ", "
+print(output)
