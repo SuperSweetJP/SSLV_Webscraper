@@ -6,6 +6,17 @@ from bs4 import BeautifulSoup
 
 def ss_scrapecontent(page_url):
 
+    #variables:
+    marka = ''
+    gads = ''
+    motors = ''
+    karba = ''
+    nobr = ''
+    krasa = ''
+    virsb = ''
+    apskate = ''
+    
+
     # Source scrape
     r = requests.get("" + str(page_url))
     soup = BeautifulSoup(r.content, "html.parser")
