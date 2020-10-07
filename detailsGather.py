@@ -2,7 +2,7 @@ import requests
 import os
 from bs4 import BeautifulSoup
 
-# Alfa-Rome Page Test LETS DO DIS
+# Alfa-Rome Page
 
 def ss_scrapecontent(page_url):
 
