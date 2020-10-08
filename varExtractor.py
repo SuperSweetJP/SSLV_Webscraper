@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 def ss_scrapevars():
 
     vari_set = list()
+    equip_set = list()
 
     # Source scrape
 
@@ -33,6 +34,11 @@ def ss_scrapevars():
     print(dtkey)
     print("\n-------------------------\n")
 
+    for equipment in soup.find_all('b', class_='auto_c'):
+        equipped = equipment.text
+        if equipped not in equip_set:
+            equip_set.append(equipped)
+
     # variables:
     # Setting variables
     marka = dtkey.get('mnf')
@@ -43,6 +49,7 @@ def ss_scrapevars():
     krasa = dtkey.get('clr')
     virsb = dtkey.get('bdy')
     apskate = dtkey.get('svc')
+    apriko = equip_set
 
     # Test print variables
     print(marka)
@@ -53,6 +60,8 @@ def ss_scrapevars():
     print(krasa)
     print(virsb)
     print(apskate)
+    print('\n-------------------\n')
+    print(apriko)
 
 
 ss_scrapevars()
