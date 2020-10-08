@@ -15,9 +15,9 @@ def ss_scrapevars():
 
     # Get Basic Data
 
-    for getmakemodel in soup.find_all('table', class_='options_list'):
-        for makemodel in getmakemodel.find_all('td', class_='ads_opt'):
-            alldata = makemodel.text
+    for getvardata in soup.find_all('table', class_='options_list'):
+        for vardata in getvardata.find_all('td', class_='ads_opt'):
+            alldata = vardata.text
             if alldata not in vari_set:
                 vari_set.append(alldata)
 
