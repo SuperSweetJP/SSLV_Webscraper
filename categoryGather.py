@@ -2,6 +2,8 @@ import mysql.connector
 import re
 import os
 import requests
+import datetime
+import varExtractor
 from bs4 import BeautifulSoup
 
 mydb = mysql.connector.connect(
@@ -11,12 +13,12 @@ mydb = mysql.connector.connect(
   database="sslv"
 )
 
-mycursor = mydb.cursor()
+mycursor = mydb.cursor(buffered=True)
 
 #hard coded category for now
 #ToDo rework into main loop that passes all categories later on
-categoryLink="https://www.ss.lv/lv/transport/cars/fiat/"
-catTitle = ""
+categoryLink="https://www.ss.lv/lv/transport/cars/uaz/"
+runDateTime = ""
 
 def scrapeListPage(pageLink):
     unique_link_set = list()
@@ -43,7 +45,11 @@ def scrapeListPage(pageLink):
 
 
 def categoryPageLoop(catLink):
-    #screape the original page
+    #set global variables for category run
+    categoryLink = catLink
+    global runDateTime
+    runDateTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
     processLinksDb(scrapeListPage(catLink))
     i = 2
     #scrape subsequent pages, break when return to original page
@@ -55,27 +61,34 @@ def categoryPageLoop(catLink):
         processLinksDb(scrapeListPage(catLinkNextPage))
         i += 1
 
+    mycursor.close()
+
 
 #ToDo: add db logic here, add details gather call here
 def processLinksDb(linkDict):
     for x, y in linkDict.items():
-        print(x, y)
-        #check if link already in db
-        sqlSelect = "SELECT link, Category from CarsTable WHERE link = %s AND Category = %s"
+
+        #check if link and header combo already in db
+        sqlSelect = "SELECT link, Header from CarsTable WHERE link = %s AND Header = %s"
         parm = (x, y)
 
         mycursor.execute(sqlSelect, parm)
         rows = mycursor.rowcount
+        #if no combo in db, insert new record
+        if rows == 0:
+            sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen) VALUES (%s, %s, %s, %s)"
+            parmIns = (parm[0], parm[1], categoryLink, runDateTime)
+            mycursor.execute(sqlInsert, parmIns)
+            mydb.commit()
+        #if record found, update last seen
+        else:
+            sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
+            parmUpd = (runDateTime, parm[0], parm[1])
+            mycursor.execute(sqlUpdate, parmUpd)
+            mydb.commit()
 
-        print(rows)
-        #if  == 0:
-        #if not write new record
-            #print("record doesn't exist, inserting")
-        #if yes, check if same header
 
-            #if yes, update last seen
 
-            #if no, write new record
 
 
 categoryPageLoop(categoryLink)
