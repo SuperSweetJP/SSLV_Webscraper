@@ -11,7 +11,7 @@ def ss_scrapevars():
 
     # Source scrape
 
-    r = requests.get("https://www.ss.lv/msg/lv/transport/cars/infiniti/fx/acpnl.html")
+    r = requests.get("https://www.ss.lv/msg/lv/transport/cars/uaz/3741/okjck.html")
     soup = BeautifulSoup(r.content, "html.parser")
 
     # Get Basic Data
@@ -22,10 +22,12 @@ def ss_scrapevars():
             if alldata not in vari_set:
                 vari_set.append(alldata)
 
-    vari_set.pop(10)
-    vari_set.pop(9)
+    if 'Parādīt valsts numura zīmi' in vari_set:
+        vari_set.remove('Parādīt valsts numura zīmi')
+    if 'Parādīt vin kodu' in vari_set:
+        vari_set.remove('Parādīt vin kodu')
     vari_set.pop(7)
-    # print(vari_set)
+    print(vari_set)
 
     ckey_set = ("mnf", "yr", "engi", "gbox", "mlg", "clr", "bdy", "svc")
     dtkey = {ckey_set[i]: vari_set[i] for i in range(len(ckey_set))}
