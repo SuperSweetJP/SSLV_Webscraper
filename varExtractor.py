@@ -4,14 +4,15 @@ from bs4 import BeautifulSoup
 # Infiniti single link variable extraction test
 
 
-def ss_scrapevars():
+def ss_scrapevars(detailsPageLink):
 
     vari_set = list()
     equip_set = list()
+    detailsList = list()
 
     # Source scrape
 
-    r = requests.get("https://www.ss.lv/msg/lv/transport/cars/uaz/3741/okjck.html")
+    r = requests.get(detailsPageLink)
     soup = BeautifulSoup(r.content, "html.parser")
 
     # Get Basic Data
@@ -26,22 +27,17 @@ def ss_scrapevars():
         vari_set.remove('Parādīt valsts numura zīmi')
     if 'Parādīt vin kodu' in vari_set:
         vari_set.remove('Parādīt vin kodu')
-    vari_set.pop(7)
-    print(vari_set)
+    for spc in range(3, 12):
+        if str(spc) in vari_set:
+            vari_set.pop(7)
 
     ckey_set = ("mnf", "yr", "engi", "gbox", "mlg", "clr", "bdy", "svc")
     dtkey = {ckey_set[i]: vari_set[i] for i in range(len(ckey_set))}
 
-    # Test print keyset
-    print(dtkey)
-    print("\n-------------------------\n")
-
+    equip_set = ""
     for equipment in soup.find_all('b', class_='auto_c'):
-        equipped = equipment.text
-        if equipped not in equip_set:
-            equip_set.append(equipped)
+        equip_set += equipment.text + "|"
 
-    # variables:
     # Setting variables
     marka = dtkey.get('mnf')
     gads = dtkey.get('yr')
@@ -53,17 +49,8 @@ def ss_scrapevars():
     apskate = dtkey.get('svc')
     apriko = equip_set
 
-    # Test print variables
-    print(marka)
-    print(gads)
-    print(motors)
-    print(karba)
-    print(nobr)
-    print(krasa)
-    print(virsb)
-    print(apskate)
-    print('\n-------------------\n')
-    print(apriko)
+    detailsList = [marka, gads, motors, karba, nobr, krasa, virsb, apskate, apriko]
 
+    return detailsList
 
-ss_scrapevars()
+print(ss_scrapevars("http://www.ss.lv/msg/lv/transport/cars/mini/cooper/bcmljo.html"))
