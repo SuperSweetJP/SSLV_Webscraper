@@ -21,6 +21,7 @@ categoryList = ['Cars', 'Motorcycles']
 carCategoryList = open("carCategoryList.txt", "r").readlines()
 motorcycleCategoryList = open("motorcycleCategoryList.txt", "r").readlines()
 
+
 #scrape the list of items for links and headers
 def scrapeListPage(pageLink):
     unique_link_set = list()
@@ -46,14 +47,13 @@ def scrapeListPage(pageLink):
     return resultDict
 
 
-def makePageLoop(catLink):
+def subCatPageLoop(catLink, subCat):
     #set global variables for category run
     global categoryLink
     categoryLink = catLink
     global runDateTime
     runDateTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    #switch
-    processLinksDb(scrapeListPage(catLink))
+    processLinksDb(scrapeListPage(catLink), subCat)
     i = 2
     #scrape subsequent pages, break when return to original page
     while True:
@@ -61,30 +61,40 @@ def makePageLoop(catLink):
         nextPageReq = requests.get(catLinkNextPage)
         if catLink == nextPageReq.url:
             break
-        #switch
-        processLinksDb(scrapeListPage(catLinkNextPage))
+        processLinksDb(scrapeListPage(catLinkNextPage), subCat)
         i += 1
 
 
 #ToDo: add db logic here, add details gather call here
-def processLinksDb(linkDict):
+def processLinksDb(linkDict, subCategory):
     for x, y in linkDict.items():
         print(x)
         #check if link and header combo already in db
-        sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
+        #Cars
+        if subCategory == categoryList[0]:
+            sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
+        #Motorcycles
+        elif subCategory == categoryList[1]:
+            sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
+
         parm = (x, y)
 
         mycursor.execute(sqlSelect, parm)
         rows = mycursor.rowcount
         #if no combo in db, insert new record
         if rows == 0:
-            sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen) VALUES (%s, %s, %s, %s)"
+            #Cars
+            if subCategory == categoryList[0]:
+                sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen) VALUES (%s, %s, %s, %s)"
+            #Motorcycles
+            elif subCategory == categoryList[1]:
+                sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen) VALUES (%s, %s, %s, %s)"
             parmIns = (parm[0], parm[1], categoryLink, runDateTime)
             mycursor.execute(sqlInsert, parmIns)
             mydb.commit()
 
             #update details
-            mysqlUpdateDetails(parm[0], parm[1])
+            mysqlUpdateDetails(parm[0], parm[1], subCategory)
 
         #if record found
         else:
@@ -92,15 +102,21 @@ def processLinksDb(linkDict):
                 #check if details updated
                 if row[2] == 0:
                     print("need to update details")
-                    mysqlUpdateDetails(parm[0], parm[1])
+                    mysqlUpdateDetails(parm[0], parm[1], subCategory)
 
             #update last seen
-            sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
+            #Cars
+            if subCategory == categoryList[0]:
+                sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
+            #Motorcycles
+            elif subCategory == categoryList[1]:
+                sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
             parmUpd = (runDateTime, parm[0], parm[1])
             mycursor.execute(sqlUpdate, parmUpd)
             mydb.commit()
 
-def mysqlUpdateDetails(link, header):
+
+def mysqlUpdateDetails(link, header, subCategory):
         #fetch details for the link, return them as a list?
         try:
             detailsList = varExtractor.ss_scrapevars(link)
@@ -116,7 +132,8 @@ def mysqlUpdateDetails(link, header):
             print("error in link:" + link)
 
 
-make = carCategoryList[6]
+subCatLink = carCategoryList[6]
+
 
 #for make in single_model:
 #    #try:
@@ -129,9 +146,9 @@ make = carCategoryList[6]
 
 try:
     #start_time = time.time()
-    makePageLoop(make)
+    subCatPageLoop(subCatLink, categoryList[0])
     #run_time = time.time() - start_time
     #print("category: {} completed at {} seconds".format(make, run_time))
     print("done!")
 except:
-    print("issue in category: " + make)
+    print("issue in category: " + subCatLink)
