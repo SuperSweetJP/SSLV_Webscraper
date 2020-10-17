@@ -53,4 +53,4 @@ def ss_scrapevars(detailsPageLink):
 
     return detailsList
 
-print(ss_scrapevars("http://www.ss.lv/msg/lv/transport/cars/mini/paceman/cxgdod.html"))
+#print(ss_scrapevars("http://www.ss.lv/msg/lv/transport/cars/mini/paceman/cxgdod.html"))

@@ -69,7 +69,7 @@ def makePageLoop(catLink):
 #ToDo: add db logic here, add details gather call here
 def processLinksDb(linkDict):
     for x, y in linkDict.items():
-
+        print(x)
         #check if link and header combo already in db
         sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
         parm = (x, y)
@@ -83,7 +83,7 @@ def processLinksDb(linkDict):
             mycursor.execute(sqlInsert, parmIns)
             mydb.commit()
 
-            #fetch details for the link, return them as a list?
+            #update details
             mysqlUpdateDetails(parm[0], parm[1])
 
         #if record found
@@ -106,7 +106,7 @@ def mysqlUpdateDetails(link, header):
             detailsList = varExtractor.ss_scrapevars(link)
             sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s 
                 DetailsUpdated = %s WHERE link = %s AND Header = %s'''
-            #detailsUpdated
+            #detailsUpdated bool
             detailsList.append("1")
             detailsList.append(link)
             detailsList.append(header)
@@ -116,7 +116,7 @@ def mysqlUpdateDetails(link, header):
             print("error in link:" + link)
 
 
-make = carCategoryList[5]
+make = carCategoryList[6]
 
 #for make in single_model:
 #    #try:
