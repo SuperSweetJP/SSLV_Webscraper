@@ -17,7 +17,11 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor(buffered=True)
 categoryLink = ""
 runDateTime = ""
+categoryList = ['Cars', 'Motorcycles']
+carCategoryList = open("carCategoryList.txt", "r").readlines()
+motorcycleCategoryList = open("motorcycleCategoryList.txt", "r").readlines()
 
+#scrape the list of items for links and headers
 def scrapeListPage(pageLink):
     unique_link_set = list()
     unique_header_set = list()
@@ -42,13 +46,13 @@ def scrapeListPage(pageLink):
     return resultDict
 
 
-def categoryPageLoop(catLink):
+def makePageLoop(catLink):
     #set global variables for category run
     global categoryLink
     categoryLink = catLink
     global runDateTime
     runDateTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
+    #switch
     processLinksDb(scrapeListPage(catLink))
     i = 2
     #scrape subsequent pages, break when return to original page
@@ -57,10 +61,9 @@ def categoryPageLoop(catLink):
         nextPageReq = requests.get(catLinkNextPage)
         if catLink == nextPageReq.url:
             break
+        #switch
         processLinksDb(scrapeListPage(catLinkNextPage))
         i += 1
-
-    mycursor.close()
 
 
 #ToDo: add db logic here, add details gather call here
@@ -68,7 +71,7 @@ def processLinksDb(linkDict):
     for x, y in linkDict.items():
 
         #check if link and header combo already in db
-        sqlSelect = "SELECT link, Header from CarsTable WHERE link = %s AND Header = %s"
+        sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
         parm = (x, y)
 
         mycursor.execute(sqlSelect, parm)
@@ -81,86 +84,54 @@ def processLinksDb(linkDict):
             mydb.commit()
 
             #fetch details for the link, return them as a list?
-            #try:
-            detailsList = varExtractor.ss_scrapevars(parm[0])
-            sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s 
-                WHERE link = %s AND Header = %s'''
-            detailsList.append(parm[0])
-            detailsList.append(parm[1])
-            mycursor.execute(sqlUpdateDetails, detailsList)
-            mydb.commit()
-            #except:
-            #    print("error in link:" + parm[0])
+            mysqlUpdateDetails(parm[0], parm[1])
 
-        #if record found, update last seen
+        #if record found
         else:
+            for row in mycursor:
+                #check if details updated
+                if row[2] == 0:
+                    print("need to update details")
+                    mysqlUpdateDetails(parm[0], parm[1])
+
+            #update last seen
             sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
             parmUpd = (runDateTime, parm[0], parm[1])
             mycursor.execute(sqlUpdate, parmUpd)
             mydb.commit()
 
-
-all_models = [
-    "https://www.ss.lv/lv/transport/cars/alfa-romeo/sell/",
-    "https://www.ss.lv/lv/transport/cars/audi/sell/",
-    "https://www.ss.lv/lv/transport/cars/bmw/sell/",
-    "https://www.ss.lv/lv/transport/cars/cadillac/sell/",
-    "https://www.ss.lv/lv/transport/cars/chevrolet/sell/",
-    "https://www.ss.lv/lv/transport/cars/chrysler/sell/",
-    "https://www.ss.lv/lv/transport/cars/citroen/sell/",
-    "https://www.ss.lv/lv/transport/cars/dacia/sell/",
-    "https://www.ss.lv/lv/transport/cars/daewoo/sell/",
-    "https://www.ss.lv/lv/transport/cars/dodge/sell/",
-    "https://www.ss.lv/lv/transport/cars/fiat/sell/",
-    "https://www.ss.lv/lv/transport/cars/ford/sell/",
-    "https://www.ss.lv/lv/transport/cars/honda/sell/",
-    "https://www.ss.lv/lv/transport/cars/hyundai/sell/",
-    "https://www.ss.lv/lv/transport/cars/infiniti/sell/",
-    "https://www.ss.lv/lv/transport/cars/jaguar/sell/",
-    "https://www.ss.lv/lv/transport/cars/jeep/sell/",
-    "https://www.ss.lv/lv/transport/cars/kia/sell/",
-    "https://www.ss.lv/lv/transport/cars/lancia/sell/",
-    "https://www.ss.lv/lv/transport/cars/land-rover/sell/",
-    "https://www.ss.lv/lv/transport/cars/lexus/sell/",
-    "https://www.ss.lv/lv/transport/cars/mazda/sell/",
-    "https://www.ss.lv/lv/transport/cars/mercedes/sell/",
-    "https://www.ss.lv/lv/transport/cars/mini/sell/",
-    "https://www.ss.lv/lv/transport/cars/mitsubishi/sell/",
-    "https://www.ss.lv/lv/transport/cars/nissan/sell/",
-    "https://www.ss.lv/lv/transport/cars/opel/sell/",
-    "https://www.ss.lv/lv/transport/cars/peugeot/sell/",
-    "https://www.ss.lv/lv/transport/cars/porsche/sell/",
-    "https://www.ss.lv/lv/transport/cars/renault/sell/",
-    "https://www.ss.lv/lv/transport/cars/saab/sell/",
-    "https://www.ss.lv/lv/transport/cars/seat/sell/",
-    "https://www.ss.lv/lv/transport/cars/skoda/sell/",
-    "https://www.ss.lv/lv/transport/cars/ssangyong/sell/",
-    "https://www.ss.lv/lv/transport/cars/subaru/sell/",
-    "https://www.ss.lv/lv/transport/cars/suzuki/sell/",
-    "https://www.ss.lv/lv/transport/cars/toyota/sell/",
-    "https://www.ss.lv/lv/transport/cars/volkswagen/sell/",
-    "https://www.ss.lv/lv/transport/cars/volvo/sell/",
-    "https://www.ss.lv/lv/transport/cars/moskvich/sell/",
-    "https://www.ss.lv/lv/transport/cars/uaz/sell/",
-    "https://www.ss.lv/lv/transport/cars/gaz/sell/",
-    "https://www.ss.lv/lv/transport/cars/vaz/sell/",
-    "https://www.ss.lv/lv/transport/cars/others/sell/"
-]
-
-single_model = ["https://www.ss.lv/lv/transport/cars/mini/sell/"]
+def mysqlUpdateDetails(link, header):
+        #fetch details for the link, return them as a list?
+        try:
+            detailsList = varExtractor.ss_scrapevars(link)
+            sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s 
+                DetailsUpdated = %s WHERE link = %s AND Header = %s'''
+            #detailsUpdated
+            detailsList.append("1")
+            detailsList.append(link)
+            detailsList.append(header)
+            mycursor.execute(sqlUpdateDetails, detailsList)
+            mydb.commit()
+        except:
+            print("error in link:" + link)
 
 
+make = carCategoryList[5]
 
-for model in single_model:
-    #try:
-    #    start_time = time.time()
-    #    categoryPageLoop(model)
-    #    run_time = time.time() - start_time
-    #    print("category: {} completed at {} seconds".format(model, run_time))
-    #except:
-    #    print("issue in category: " + model)
+#for make in single_model:
+#    #try:
+#    #    start_time = time.time()
+#    #    categoryPageLoop(model)
+#    #    run_time = time.time() - start_time
+#    #    print("category: {} completed at {} seconds".format(model, run_time))
+#    #except:
+#    #    print("issue in category: " + model)
 
-    start_time = time.time()
-    categoryPageLoop(model)
-    run_time = time.time() - start_time
-    print("category: {} completed at {} seconds".format(model, run_time))
+try:
+    #start_time = time.time()
+    makePageLoop(make)
+    #run_time = time.time() - start_time
+    #print("category: {} completed at {} seconds".format(make, run_time))
+    print("done!")
+except:
+    print("issue in category: " + make)
