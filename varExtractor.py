@@ -32,7 +32,7 @@ def ss_scrapevars(detailsPageLink):
             vari_set.pop(7)
 
     ckey_set = ("mnf", "yr", "engi", "gbox", "mlg", "clr", "bdy", "svc")
-    dtkey = {ckey_set[i]: vari_set[i] for i in range(len(ckey_set))}
+    dtkey = {ckey_set[i]: vari_set[i] for i in range(len(vari_set))}
 
     equip_set = ""
     for equipment in soup.find_all('b', class_='auto_c'):
@@ -53,4 +53,4 @@ def ss_scrapevars(detailsPageLink):
 
     return detailsList
 
-#print(ss_scrapevars("http://www.ss.lv/msg/lv/transport/cars/mini/paceman/cxgdod.html"))
+print(ss_scrapevars("http://www.ss.lv/msg/lv/transport/cars/dodge/durango/jmelm.html"))
