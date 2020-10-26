@@ -27,9 +27,13 @@ def ss_scrapevars(detailsPageLink):
         vari_set.remove('Parādīt valsts numura zīmi')
     if 'Parādīt vin kodu' in vari_set:
         vari_set.remove('Parādīt vin kodu')
+
+    print(vari_set)
     for spc in range(3, 12):
         if str(spc) in vari_set:
             vari_set.pop(7)
+
+    print(vari_set)
 
     ckey_set = ("mnf", "yr", "engi", "gbox", "mlg", "clr", "bdy", "svc")
     dtkey = {ckey_set[i]: vari_set[i] for i in range(len(vari_set))}
@@ -53,4 +57,4 @@ def ss_scrapevars(detailsPageLink):
 
     return detailsList
 
-print(ss_scrapevars("http://www.ss.lv/msg/lv/transport/cars/dodge/durango/jmelm.html"))
+print(ss_scrapevars("https://www.ss.lv/msg/lv/transport/cars/volvo/xc70/ehcof.html1406")[4])

@@ -4,7 +4,7 @@ import os
 import requests
 import datetime
 import time
-import varExtractor
+import detailsExtractor
 from bs4 import BeautifulSoup
 
 mydb = mysql.connector.connect(
@@ -170,7 +170,7 @@ def processLinksDb(linkDict, subCategory):
 def mysqlUpdateDetails(link, header, subCategory):
         #fetch details for the link, return them as a list?
         try:
-            detailsList = varExtractor.ss_scrapevars(link)
+            detailsList = detailsExtractor.getDetails(link)
             sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, 
                 DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             #detailsUpdated bool
