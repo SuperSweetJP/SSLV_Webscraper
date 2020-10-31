@@ -6,6 +6,7 @@ import datetime
 import time
 import detailsExtractor
 from bs4 import BeautifulSoup
+import linkLists
 
 mydb = mysql.connector.connect(
   host="localhost",
@@ -18,55 +19,9 @@ mycursor = mydb.cursor(buffered=True)
 categoryLink = ""
 runDateTime = ""
 categoryList = ['Cars', 'Motorcycles']
-#carCategoryList = open("carCategoryList.txt", "r").readlines()
-motorcycleCategoryList = open("motorcycleCategoryList.txt", "r").readlines()
+carCategoryList = linkLists.carCategoryList
+motorcycleCategoryList = linkLists.motorcycleCategoryList
 
-carCategoryList = [
-    "https://www.ss.lv/lv/transport/cars/alfa-romeo/sell/",
-    "https://www.ss.lv/lv/transport/cars/audi/sell/",
-    "https://www.ss.lv/lv/transport/cars/bmw/sell/",
-    "https://www.ss.lv/lv/transport/cars/cadillac/sell/",
-    "https://www.ss.lv/lv/transport/cars/chevrolet/sell/",
-    "https://www.ss.lv/lv/transport/cars/chrysler/sell/",
-    "https://www.ss.lv/lv/transport/cars/citroen/sell/",
-    "https://www.ss.lv/lv/transport/cars/dacia/sell/",
-    "https://www.ss.lv/lv/transport/cars/daewoo/sell/",
-    "https://www.ss.lv/lv/transport/cars/dodge/sell/",
-    "https://www.ss.lv/lv/transport/cars/fiat/sell/",
-    "https://www.ss.lv/lv/transport/cars/ford/sell/",
-    "https://www.ss.lv/lv/transport/cars/honda/sell/",
-    "https://www.ss.lv/lv/transport/cars/hyundai/sell/",
-    "https://www.ss.lv/lv/transport/cars/infiniti/sell/",
-    "https://www.ss.lv/lv/transport/cars/jaguar/sell/",
-    "https://www.ss.lv/lv/transport/cars/jeep/sell/",
-    "https://www.ss.lv/lv/transport/cars/kia/sell/",
-    "https://www.ss.lv/lv/transport/cars/lancia/sell/",
-    "https://www.ss.lv/lv/transport/cars/land-rover/sell/",
-    "https://www.ss.lv/lv/transport/cars/lexus/sell/",
-    "https://www.ss.lv/lv/transport/cars/mazda/sell/",
-    "https://www.ss.lv/lv/transport/cars/mercedes/sell/",
-    "https://www.ss.lv/lv/transport/cars/mini/sell/",
-    "https://www.ss.lv/lv/transport/cars/mitsubishi/sell/",
-    "https://www.ss.lv/lv/transport/cars/nissan/sell/",
-    "https://www.ss.lv/lv/transport/cars/opel/sell/",
-    "https://www.ss.lv/lv/transport/cars/peugeot/sell/",
-    "https://www.ss.lv/lv/transport/cars/porsche/sell/",
-    "https://www.ss.lv/lv/transport/cars/renault/sell/",
-    "https://www.ss.lv/lv/transport/cars/saab/sell/",
-    "https://www.ss.lv/lv/transport/cars/seat/sell/",
-    "https://www.ss.lv/lv/transport/cars/skoda/sell/",
-    "https://www.ss.lv/lv/transport/cars/ssangyong/sell/",
-    "https://www.ss.lv/lv/transport/cars/subaru/sell/",
-    "https://www.ss.lv/lv/transport/cars/suzuki/sell/",
-    "https://www.ss.lv/lv/transport/cars/toyota/sell/",
-    "https://www.ss.lv/lv/transport/cars/volkswagen/sell/",
-    "https://www.ss.lv/lv/transport/cars/volvo/sell/",
-    "https://www.ss.lv/lv/transport/cars/moskvich/sell/",
-    "https://www.ss.lv/lv/transport/cars/uaz/sell/",
-    "https://www.ss.lv/lv/transport/cars/gaz/sell/",
-    "https://www.ss.lv/lv/transport/cars/vaz/sell/",
-    "https://www.ss.lv/lv/transport/cars/others/sell/"
-]
 
 #scrape the list of items for links and headers
 def scrapeListPage(pageLink):
@@ -100,7 +55,6 @@ def subCatPageLoop(catLink, subCat):
     global runDateTime
     runDateTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    print("processing initial page")
     processLinksDb(scrapeListPage(catLink), subCat)
     i = 2
     #scrape subsequent pages, break when return to original page
@@ -109,7 +63,6 @@ def subCatPageLoop(catLink, subCat):
         nextPageReq = requests.get(catLinkNextPage)
         if catLink == nextPageReq.url:
             break
-        print(f"processing {catLinkNextPage}")
         processLinksDb(scrapeListPage(catLinkNextPage), subCat)
         i += 1
 
@@ -149,7 +102,7 @@ def processLinksDb(linkDict, subCategory):
         #if record found
         else:
             if record[0][2] == 0:
-                print("need to update details")
+                print("need to update details for link: {}".format(parm[0]))
                 mysqlUpdateDetails(parm[0], parm[1], subCategory)
 
             #update last seen
@@ -163,16 +116,18 @@ def processLinksDb(linkDict, subCategory):
             mycursor.execute(sqlUpdate, parmUpd)
             mydb.commit()
 
-    #    print("link done!")
-    #print("dict done!")
-
 
 def mysqlUpdateDetails(link, header, subCategory):
         #fetch details for the link, return them as a list?
         try:
-            detailsList = detailsExtractor.getDetails(link)
-            sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, 
-                DetailsUpdated = %s WHERE link = %s AND Header = %s'''
+            if subCategory == categoryList[0]:
+                detailsList = detailsExtractor.getCarDetails(link)
+                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts + %s, 
+                    DetailsUpdated = %s WHERE link = %s AND Header = %s'''
+            elif subCategory == categoryList[1]:
+                detailsList = detailsExtractor.getMotorcycleDetails(link)
+                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, 
+                    DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             #detailsUpdated bool
             detailsList.append("1")
             detailsList.append(link)
@@ -180,23 +135,14 @@ def mysqlUpdateDetails(link, header, subCategory):
             mycursor.execute(sqlUpdateDetails, detailsList)
             mydb.commit()
         except Exception as ex:
-            print("error in link:" + link)
+            print("error in link: {}".format(link))
             print(ex)
 
 
-#subCatLink = carCategoryList[9]
-
-
-#for make in single_model:
-#    #try:
-#    #    start_time = time.time()
-#    #    categoryPageLoop(model)
-#    #    run_time = time.time() - start_time
-#    #    print("category: {} completed at {} seconds".format(model, run_time))
-#    #except:
-#    #    print("issue in category: " + model)
 
 startTime = time.time()
+
+#Cars
 for subCat in carCategoryList:
     try:
         start_timeCat = time.time()
@@ -204,8 +150,30 @@ for subCat in carCategoryList:
         run_timeCat = time.time() - start_timeCat
         print("category: {} completed at {} seconds".format(subCat, run_timeCat))
     except Exception as ex:
-        print("issue in category: " + subCatLink)
+        print("issue in category: {}".format(subCat))
         print(ex)
+
+#Motorcycles
+#for subCat in motorcycleCategoryList:
+#    try:
+#        start_timeCat = time.time()
+#        subCatPageLoop(subCat, categoryList[1])
+#        run_timeCat = time.time() - start_timeCat
+#        print("category: {} completed at {} seconds".format(subCat, run_timeCat))
+#    except Exception as ex:
+#        print("issue in category: {}".format(subCat))
+#        print(ex)
+
+
+#try:
+#    subCatLink = carCategoryList[9]
+#    start_timeCat = time.time()
+#    subCatPageLoop(subCatLink, categoryList[0])
+#    run_timeCat = time.time() - start_timeCat
+#    print("category: {} completed at {} seconds \n".format(subCatLink, run_timeCat))
+#except Exception as ex:
+#    print("issue in category: {} \n".format(subCatLink))
+#    print(ex + "\n")
 
 run_time = time.time() - startTime
 print(f"whole process finished in: {run_time} seconds")
