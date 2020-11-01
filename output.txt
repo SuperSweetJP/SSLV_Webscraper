@@ -440,3 +440,1340 @@ category: https://www.ss.lv/lv/transport/cars/others/sell/ completed at 11.01383
 
 whole process finished in: 2650.00502038002 seconds 
 
+category: https://www.ss.lv/lv/transport/cars/alfa-romeo/sell/ completed at 5.906739234924316 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/audi/sell/ completed at 341.9876456260681 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/bmw/sell/ completed at 337.7593743801117 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/cadillac/sell/ completed at 2.432514190673828 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/chevrolet/sell/ completed at 13.808086633682251 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/chrysler/sell/ completed at 38.26883673667908 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/citroen/sell/ completed at 35.57752847671509 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/dacia/sell/ completed at 5.343209743499756 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/daewoo/sell/ completed at 1.5910406112670898 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/dodge/sell/ completed at 7.691197156906128 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/fiat/sell/ completed at 13.360933542251587 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/ford/sell/ completed at 126.509033203125 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/honda/sell/ completed at 48.517101764678955 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/hyundai/sell/ completed at 48.72235131263733 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/infiniti/sell/ completed at 3.9050467014312744 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/jaguar/sell/ completed at 5.2043116092681885 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/jeep/sell/ completed at 12.901389360427856 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/kia/sell/ completed at 35.74813485145569 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/lancia/sell/ completed at 3.5640268325805664 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/land-rover/sell/ completed at 21.776522397994995 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/lexus/sell/ completed at 31.672688722610474 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/mazda/sell/ completed at 39.9609808921814 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/mercedes/sell/ completed at 171.94373559951782 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/mini/sell/ completed at 15.109837293624878 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/mitsubishi/sell/ completed at 36.965450286865234 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/nissan/sell/ completed at 74.36564183235168 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/opel/sell/ completed at 182.7938826084137 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/peugeot/sell/ completed at 53.36714506149292 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/porsche/sell/ completed at 12.915776252746582 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/renault/sell/ completed at 93.56730556488037 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/saab/sell/ completed at 14.642513990402222 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/seat/sell/ completed at 22.908897399902344 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/skoda/sell/ completed at 52.54511523246765 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/ssangyong/sell/ completed at 2.7712759971618652 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/subaru/sell/ completed at 25.841342449188232 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/suzuki/sell/ completed at 6.95294976234436 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/toyota/sell/ completed at 160.5830614566803 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/volkswagen/sell/ completed at 397.52718353271484 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/volvo/sell/ completed at 278.60671854019165 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/moskvich/sell/ completed at 2.995169162750244 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/uaz/sell/ completed at 2.650831460952759 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/gaz/sell/ completed at 5.569292306900024 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/vaz/sell/ completed at 10.124088048934937 seconds 
+
+category: https://www.ss.lv/lv/transport/cars/others/sell/ completed at 11.877139806747437 seconds 
+
+whole process finished in: 2818.83394241333 seconds 
+
+error in link: http://www.ss.lv/msg/lv/transport/cars/alfa-romeo/159/ffklk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAlfa Romeo 159 Sportwagon. 1.9 Jtd. 2007 g. <br/', 
+                 ' at line 1
+category: https://www.ss.lv/lv/transport/cars/alfa-romeo/sell/ completed at 7.323500871658325 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/80/dopmx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu auto ar tikko izietu tehnisko skati. Automašīnai vietām i' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bdbeep.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4/1.9 Tdi 96Kw/ Jauna TA. Auto labā tehniskā un vizuālā st' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bbpmb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Vācijas A4 1.9Tdi. Vecais sūkņa motors. <br/', 
+         ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/tt/akehn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĪpašnieks pārdod Audi TT Sline 1, 8 Tfsi, 118 kw (160 zs). <br/', ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/cmixl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПодробности по телефону.<br/', 
+                ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/bjxkn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Audi A6, 2.5 benzīns/gāze. 15. gadus bījis vienās rokās' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/dinik.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nТолько пригнан из Германии своим ходо' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/allroad/gcmmb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod koptu Audi A6 Allroad. Patiess un pierādāms nobraukums. Bra' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/bgfkm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod ļoti labā tehniskā un vizuālā stāvoklī. Manā īpašum' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/cdcfn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSiguldas pusē Pārdodu labā tehniskā un vizuālā kārtībā Audi ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/aoboc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю автомобиль в отличном состоян' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/chcni.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A6 Facelift 3.0Tdi Quattro. <br/', 
+                    DetailsU' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bnlbb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Audi A4. Auto izcelsmes valsts - Beļģiija. Latvijā - kop' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/cdixk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A3 Sportback \'\' S-Line \" Shadowline, 2.0Tdi, 140Zs. <br/', 
+ ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/bfckoi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Vācijas A4 1.9Tdi/81kw (vecais sūkņa motors). <br/', 
+   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/bpmdo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A6 3.0 Tdi Quattro. Pārdod īpašnieks. Svaiga tehniskā apskat' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bdbigg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodam mašīnu labā vizuālā un tehniskā stāvoklī. <br/', 
+ ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/ggpel.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nZiema nav aiz kalniem. Iepriecini sevi ar stabilitāti uz ceļa. Pār' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a1/bpddhj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu savu Audi A1 ar 1, 6Td dzinēju. 5 ātrumi. Ļoti ekonomisks' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/bdbxoo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLatvijā pirkts. <br/', 
+                    DetailsUpdated = '1' WHE' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/clojl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Vācijas Audi A6 Allroad Quattro 3.0 Tdi. 171Kw. 15.05.2008 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/bfoee.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nСостояния нормальное. Есть визуальны' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/fifnh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Audi A6c4. Labā tehniskā stāvoklī, vizuāli jāpiestrād' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/q7/bimdmj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi Q7 4, 2d S-line. R20 diski ar jaunām m+s riepām. Keramikas pā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/ghlbg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.9Tdi 66kw, ļoti labi saglabājies, 4, 5l uz 100km, nav sarūsējus' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/exkxo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю машину Audi A4 (1, 9 tdi 81 kw ). Новое сц' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/giilo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A6<br/', 
+                    DetailsUpdated = '1' WHERE link = ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/befhdk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVakar jauna T. A. ideals stavoklis. Originalss nobraukums, neizsedeti' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/cmdkh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi a3 1, 9 tdi 66 kw No Vācijas <br/', 
+                    Detail' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/allroad/emlio.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n3.0Tdi Automats. Quattro 194000km 100%. Tikko atnaca ir pieregistreta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a5/bmdnfc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Audi A5 Sportback Quattro, 3, 0Tdi, 176kw, ļoti labā stāvo' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/ddokj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n3.2Fsi Quattro. Sedans, rekaro apsildāmi sēdekļi, klimatkontrole, ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/allroad/hkjxf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu, koptu labu Audi A6 C6 Allroad. Viss strādā perfekti. Auto' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/fkjce.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu audi a6. labā tehniskā stāvoklī. R18 riepas, kārba pēc' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/edocx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Audi A4 B5 1.9 Tdi (81 Kw) 1997.g. Ir vizuāli defekti - šu' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/cjexo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSvaiga TA līdz 22.09.2021, bez problēmām izieta ar pirmo reizi. Re' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/gbhil.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Parizes. Dīzelis 3.0(1kW). Quattro. R17. Automāts. Bixenon' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/ebbpp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Audi A6 3.0tdi Quattro 272zs S-line. Led Matrix gaismas + di' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/eekfk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nВ хорошем тех. и визуальном <br/', 
+           ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/bggeb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ļoti labā stāvoklī , gan tehniski, gan vizuāli , tiko atbra' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/djpxp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4 2.0 Tdi Дизель. Автомат. Югла. <br/', 
+     ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/ekhgh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto tikko no Vācijas. <br/', 
+                    DetailsUpdated = ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/dcfon.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A3 2.0 tdi S-Line<br/', 
+                    DetailsUpdated = '1' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/hhjlx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Audi A6 3.0Tdi 204Hp. <br/', 
+                    Detail' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/gbidi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nНовый техосмотр без единого замечани' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/ghhpn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.9tdi 96kw 130Zs, Jauna TA, izieta pa 0.Auto labā stāvoklī, vienm' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/gjibx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna TA, quattro, benzīns/gāze. Pārdodu Audi A4 1.8 92kw quattro ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/efplf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod A4 176kw 3.0 Tdi quattro. Tikko izieta TA. <br/', 
+          ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/abinc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu Audi ar vizualo defektu. Auto ar skati 06.21(nodoklis samaksa' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/beemlo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodas nesteidzami. Cena nešūposies uz leju. Eļļa Castrol 5W40' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/cffkb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nМашина полностью в исправном состоян' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/q7/blcgbp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFacelift Audi Q7 Exclusive 3.0Tdi Quatrro, 7 sēdvietas, automātisk' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/hdbip.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPilnīgi Svaiga Tehniskā Apskate 11.2021<br/', 
+                    ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bhipb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4 2.0d, no Itālijas, Latvijā no 2018. gada beigām. Ar pārba' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bckkkf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Audi A4-1.9Tdi, 66Kw-2000 gada, labā tehniskajā un vizuāl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/80/bcjmf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAutomašīna no Vācijas, labā tehniskā un vizuālā stāvoklī. Br' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/bfxkff.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko ievests Latvijā. Audi A3 1.9tdi 77kW. Labākais motors savā k' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/bjkne.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nDzv Auto / Quattro no Vācijas, Bezmaksas pārrakstīsim uz Jūsu vā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/q5/cxixjg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi Sq5 ideālā stāvoklī, viens saimnieks, visas apkopes veiktas ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/djcbj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Audi A4 ar 1.8 turbo dzinēju(120Kw, 163Hp), quattro. Mašī' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/foopg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Audi A6 sedan 2.4i мануальная кпп, толь' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/fkjxo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4 sline, No Vacijas, 2.5tdi, 132kw, automats, Jauna TA, nomaks' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a5/bikdoh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod smuku Audi A5 Sportback ar melnu ādas salonu, melniem 19 col' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/cdbhm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаёт владелец. Машина в хорошем те' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/80/hchen.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod auto. Var taisīt Skatei vai rezerves daļām. praktiski jaun' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/dpffn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Audi A4 - 3, 0Tdi 176 kw / 239 zs<br/', 
+                    ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/hdkko.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSveiki. Pārdodu savu uzticamo auto, ne reizi nav pievīlis uz ceļa,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/cjjpn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nS line aprīkojums, jaunā apskate 11.2021, ādas recaro sēdekļi, k' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/q5/cxixjd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nCena ar Pvn21% Audi Sq5, 3.0Tdi quattro, 230kw, 313zs. No Vācijas, p' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/q5/bpobpe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi Q5, 2.0tdi Quattro, 1 хозяин, состояние ново' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/allroad/bjfxmf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4 Allroad, 2.0 Tdi, 125 KW dzinējs, pirmā reģistrācija 29.1' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/addgo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4 Allroad 3.0Tdi 218z. s. Quattro, Automātiskā ātrumkārba\n' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a8/eexio.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n3.0 tdi 171kw 232zs / Quattro / <br/', 
+                    DetailsUp' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/gndek.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLīzings bez pirmās iemaksas. Četri elektriski logu pacēlāji, kli' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/cdpjj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabs auto, uzlikts jauns sajūgs un divmasu spararats pirms 15000 nom' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/aehim.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Audi A3 2008 года S-line. Tdi 2.0. На 200000 км ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/fihnx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nQuattro / 2.7 tdi 180zs / Automāts. <br/', 
+                    Deta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/gxxhk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna Ta audi a6 2.5 tdi 103 kw-150 hp. <br/', 
+                    D' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/bhiof.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A4 S-Line 2.0 Tdi (177 Zs) ar manuālo pārnesumkārbu, Cena ar ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/ggeok.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardod 1.8t ziperigs auto. Facelift. Ir visuzuali defekti brauksanai ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a6/fblbm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSline x2, automāts, quattro<br/', 
+                    DetailsUpdate' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/80/bdmig.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu vai mainu, auto beigusies tehniska .<br/', 
+                 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/allroad/gfhee.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto laba tehniska stavokli. Izskatišu maiņas Variantus. Nodoklis n' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/dmeno.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAudi A3 Sportback 2, 0 Tdi \"Ambition\"\n\r\nAprīkojums:\n\r\nDienas' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a8/ajdfe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаётся Audi A8 quatro 3.0 diesel. Хорошая комп' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a3/bfcngh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu auto labā tehniskā kartibā. <br/', 
+                    D' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/djxix.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu koptu Audi A4, 1.9Tdi, 85kW/115zs. Mainīta zobsiksna, jaunas' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/audi/a4/beemhj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodam savu Audi a4 b8, 2.0 tfsi, benzīns, automāts, 211 zirgi, ' at line 1
+category: https://www.ss.lv/lv/transport/cars/audi/sell/ completed at 392.73825430870056 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/bhdno.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu E36 Compact. Nesen izieta TA . <br/', 
+                    De' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/bjcpl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu bmw compact <br/', 
+                    DetailsUpdated = '1'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/chcid.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n2.0D 120kw 6 atr. special edition. Tikko atnāca ir piereģistrēta u' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/epehk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 530d, 130kW, automātiskā ātrumkārba. <br/', 
+                ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/535/epomn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Vacija, pardodu 535d, 210kw, jauna Ta, Servisa gramatina , s' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/318/fbmim.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW E91 Facelift modelis. Ar 2.0 L benzīna dzinēju. Tiek pārdots l' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/gbkec.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW F31 316 2.0 D. Auto teicamā kārtībā. Ļoti ekonomiska 4.5-5l/' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/ednen.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu tikko no Itālijas ievestu BMW 320 Coupe ar 2, 0D dzinēju, ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/bidjj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаётся Gt530 Xdrive М пакет. В хорошем те' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/befhfc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nEksklusive. X5 4.8i. Benzīns-Gāze. /355zs/261kw/. <br/', 
+         ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/740/bpemx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаётся BMW 740 D twin turbo со свежим ТО , ма' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/beibgk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardod/maina BMW X5.2004gada facelift, 3, 0d 160kw. Auto ļoti labā ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/318/ebfln.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardod e46 touringu. M43b19 benzins/gaze. Laba stavokli, sedies un br' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/aknmp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu BMW X5 labā stāvoklī, sakarā ar cita auto iegādi. Laba ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/eodcg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSaimnieks pārdod vai maina x5 e70 sport packet aerodynamic. Auto lab' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/floff.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю своё Авто, лично привозил с Гер' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/dxkdo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nNoņemts no uzskaites , nodoklis līdz šim brīdim samaksāts. Gribu' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/635/ijejj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nТолько пригнана из Германии / Face Lift / о' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/gdome.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardod BMW X5, melns adas salons, 4 elektriskie logi, auto nr nepardo' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/egleg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n500eur Pirmā iemaksa. Auto tikko no vācijas. Latvijā nav ekspluat' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/330/enxkg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nStiliga BMW E46 330d 135kw Falecift, automātiskā ātrumkārba, rūp' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/fookb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nЕ92 Coupe Lci <br/', 
+                    DetailsUpdated = '1' WHERE' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/550/lixmi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW M550d, x-Drive, 280 kw (381 zs). Auto ideālā tehniskā un vizu' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/cexdo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSakarā ar jaunāka auto iegādi pārdod BMW 318.<br/', 
+            ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/hcndp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nM. Sportpaket , BMW F11 530d , 3.0d 190.kw - 258.zs. <br/', 
+        ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/330/fgdnj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 330 xDrive Touring M-Sportpaket 170 kW / 231 PS, automāts Steptr' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/535/cxgdx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod BMW 535 3.0D 200 Kw. M-Paket. Čipots. (320z. s)<br/', 
+     ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/achej.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodas BMW e46 2.0 dizelīts 100kw auto ir stāvējis 3 gadus, bet' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/325/ecglh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBmw-325, 2.5 benzīns/gāze, automāts, klimata kontrole, kruīza kon' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/emhgl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdošanā Bmw 530 dīzelis (142kw), Face lift modelis, tikko iziet' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/cjjgn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdot BMW 320 laba stāvoklī. <br/', 
+                    DetailsU' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/330/ddieb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW E90 325d 145kw/197zs 2007g. <br/', 
+                    DetailsUp' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/gcbmp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu BMW F07 530d 180kW GT, auto lieliskā stāvokli, komfortabls' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/520/apxei.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labā stāvokli komplektā ar riepām un diskiem (ziemas un ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/335/bbxijd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu BMW. Varu palīdzēt nokārtot līzingu. <br/', 
+      ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/318/bledc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu bmw. Ir interese zvani. Varu mainīt pret audi b8, vēlams a' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x3/bikhdi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĪpašniece pārdod BMW X3 ar pilnībā oriģinālu un pierādāmu no' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/i3/cxixkx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nEzauto / BMW i3S 94Ah 135Kw / 184Ps Facelift Interior Design Loft War' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/i3/bpgpmh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nEzauto / BMW i3 Edrive 94Ah 170Zs Interior Design Suite\n\r\nEU Speci' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/i3/cxixjp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nEzauto / BMW i3 94Ah 125Kw / 170Ps \n\r\nEU Specifika\r\nMultifunkcio' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/gpjig.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBmw e91 320d 120kw/160zs 2007gads. Manuals. <br/', 
+                 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/i3/cxixkb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nEzauto / BMW i3S 120Ah 135Kw / 184Ps Facelift Interior Design Loft Wa' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/fxplg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю бмв 530 142kw рестайлинг. <br/', 
+         ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/325/edjob.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 325d. Automāts. 14.04.2008 g. <br/', 
+                    Detail' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x3/ebnnm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu BMW X3 ar 3.0D-160Kw motoru. Automašīna tikko atvesta no V' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/318/bnoco.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSveiki. Pārdodu BMW 318. Tehniski ļoti laba stāvoklī, protams ir ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/aknoc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu BMW 320d. Labā stāvokli. Kopts un vienmēr sekots līdzi. ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/116/bxgodm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu bmw ļoti labā stavoklī. <br/', 
+                    Detai' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/116/bpehkd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 116d 85kw/114 Zs <br/', 
+                    DetailsUpdated = '1'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/bchghf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nВ связи с покупкой нового автомобиля ,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/ckpke.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю BMW , состояние хорошее и технич' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/325/gockh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu žurku, orģināli 318, bet ielikts M50B25 motors ar vanosu,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/akepg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 320d X-Drive<br/', 
+                    DetailsUpdated = '1' WHER' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/bjgli.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 320d <br/', 
+                    DetailsUpdated = '1' WHERE link ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/525/emfoe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVai mainu pret busu dzīvu E39 sedans, dīzelis, automāts, 105kw, ce' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x1/bigpnp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n2.0D Sdrive Xline 110Kw Comfort Plus <br/', 
+                    Deta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/120/bmfikl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 120D ar automātisko ātruma kārbu, ar 130kw dzinēju. \r\nLaba ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/528/anxfp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBmw 528 jauna ta lidzi varu iedot r18 diskus<br/', 
+                 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/535/jxehg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nНовый T. O. На отлично. Налог оплачен. 535 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/goxne.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю машину . Подробности по телефо' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/ddohh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Bmw, sēdies un brauc. <br/', 
+                    DetailsUpd' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/aefgb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nDzv Auto / X5 Recaro/panorama Bezmaksas pārrakstīsim uz Jūsu vārd' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/525/cnggj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFirst Auto / BMW F10 525d, 3.0D - 150 kw / 204 zs\r\nAuto ar oriģin' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/330/bdpkxb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 330 E46<br/', 
+                    DetailsUpdated = '1' WHERE lin' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/525/fbkmc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu BMW, 525 E61 3, 0 L, xDrive, 2009.g. <br/', 
+          ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/318/cbxin.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 318, E46, 1.9 benzīns/gāze. Svaiga TA nodoklis par šo gadu nom' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/520/bimmx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiekt tirgots BMW 520d. Jauna apskate uz gadu. <br/', 
+              ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/bgmkf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAC Schnitzer / 530 D 160kw 220zs / Sedans / Automāts. <br/', 
+      ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/525/gjgip.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 525d xDrive. 173.000km oriģināls nobraukums. Pilna servisa vēs' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/320/bhgcc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n500eur Pirmā iemaksa. Plīts. Auto tikko no vācijas. Iespējama nom' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/730/akbhk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko izieta TA praktiski bez aizrādījumiem, R20 diski, dubultie st' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/318/dlbpo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu bmw pirms ziemas ir samainītas bremzes, akumulātors u' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/118/dcjdo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBMW 1. sērija F20 M Sport / Facelift modelis / turbo benzīns<br/', ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/520/bjifn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLieku atkārtoti, jo pazuda pircējs. Praktiski jaunas M+S riepas, sv' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/530/fdjmb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna TA, E60 3.0Diesel teicamā tehniskajā stāvoklī<br/', 
+      ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/x5/becgbo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Бмв е53 Рестайл в хорошем тех. и ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/740/eodoo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĪpašnieks pārdod BMW 740d, (3.0d) ar 225kw-306zs. <br/', 
+        ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/316/bdipn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPerfekts F31 2.0d tikko no Vācijas 150zs(palielināta jauda Vācijā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/330/fihox.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nBmw 330 automats .ideala stavokli<br/', 
+                    DetailsU' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/730/gfnfc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu BMW 730 labā tehniskā stāvoklī, vizuāli ir pa defektam,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/bmw/330/cghmf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu 2003. 330d 150kw manuāla. <br/', 
+                    Detai' at line 1
+category: https://www.ss.lv/lv/transport/cars/bmw/sell/ completed at 407.0415198802948 seconds
+category: https://www.ss.lv/lv/transport/cars/cadillac/sell/ completed at 2.910881280899048 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/chevrolet/chevyvan/bligd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю отличный бус для дальних поезд' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chevrolet/cruze/bffcie.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiko no Italijas, 2, 0 Dîzelis ar 120 KW dzinèju , Tehniski vizuàl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chevrolet/lacetti/hnxnm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu ļoti labu auto skaisti sarkanā krāsā. Visas tehniskās i' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chevrolet/lacetti/jelfl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nАвтомат, 1.6i, бензин-газ, новый ТО. Ориг' at line 1
+category: https://www.ss.lv/lv/transport/cars/chevrolet/sell/ completed at 17.12924361228943 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/pt-cruiser/emppc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nРестайл. Газ-бензин. Машина в ЛВ меньш' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/voyager/eoiei.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродается очень просторный и удобный ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/grand-voyager/ccexi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu/mainu Grand Vojager 2.5crdi 105kw. Машина в хорош' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/pacifica/cfjep.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nКрайслер Пацифика 2004 года выпуска, с б' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/sebring/hkcin.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAutomāts. Jauna TA. <br/', 
+                    DetailsUpdated = '1'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/grand-voyager/bildp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko izieta tehniskā apskate. Nomaksāti nodokļi. Chrysler Grand V' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/300c/abgpo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĻoti labā vizuālā un tehniskā stāvoklī, nekādu defektu, visas' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/chrysler/grand-voyager/almne.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nChrysler Grand Voyager Limited 2, 8.Crd. <br/', 
+                    ' at line 1
+category: https://www.ss.lv/lv/transport/cars/chrysler/sell/ completed at 47.40795707702637 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/c4/hglpc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLatvijā pirkts Citroen C4 ideālā tehniskā kārtībā ar oriģinā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/c4picasso/oxmce.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nА/м только пригнан из Франции, Citroen C4 Pic' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/another/mmfme.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродается машина в хорошем состоянии,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/jumper/klfjo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Motors Berģi pārdod: Citroen Jumper. \r\nAutomašīna apskatā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/jumper/kgebi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Motors Berģi pārdod: Citroen Jumper. \r\nAutomašīna apskatā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/jumper/iijlc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Motors Berģi pārdod: Citroen Jumper. \r\nAutomašīna apskatā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/c4/mejef.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu automašīnu Citroen C4 30.11.2006. gada 1.6 benzīns. Nesen' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/c4picasso/bmlfkb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nC4 Grand Picasso, 2.0 dizelis/automats (110kw). 7 vietigs. <br/', 
+  ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/c3/edgki.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots stilīgs, izskatīgs un ekonomisks Citroen C3 Exclusive' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/citroen/jumper/gljbh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nВложений не требует. то-пройден. ходов' at line 1
+category: https://www.ss.lv/lv/transport/cars/citroen/sell/ completed at 47.999109745025635 seconds
+category: https://www.ss.lv/lv/transport/cars/dacia/sell/ completed at 5.574710845947266 seconds
+category: https://www.ss.lv/lv/transport/cars/daewoo/sell/ completed at 1.7025058269500732 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/dodge/nitro/akpce.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nStūres hidropastiprinātājs<br/', 
+                    DetailsUpdat' at line 1
+category: https://www.ss.lv/lv/transport/cars/dodge/sell/ completed at 9.467908382415771 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/fiat/punto/ccldh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nEkonomisks un ņiprs auto. Patērē 4-6 l/100km. Viegli braucams gan ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/fiat/panda/ilebx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJaunā TA / Tikko no Vācijas / Hečbeks. <br/', 
+                   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/fiat/doblo/ikkfb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu łoti labu, ekanomisku auto. Fiat Doblo Maxi 1, 9Tdi 77kw.<b' at line 1
+category: https://www.ss.lv/lv/transport/cars/fiat/sell/ completed at 17.816367387771606 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/galaxy/bpenm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSīkāk pa tel.<br/', 
+                    DetailsUpdated = '1' WHERE' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/s-max/pnhee.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFord S-Max 1.8 Tdci. 2007 g. <br/', 
+                    DetailsUpdat' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/npfjk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Ford focus 1.8d в хорошем техническом' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/mondeo/gfhkj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFord Mondeo 2.0 dīzelis. Automāts. <br/', 
+                    Deta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/ccoop.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n2 ключа <br/', 
+                    DetailsUpdated = '1' WHERE l' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/aadxj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n2 Ключа<br/', 
+                    DetailsUpdated = '1' WHERE li' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/s-max/fokii.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nБольше инфо. по телефону.<br/', 
+                ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/exeed.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabs, praktisks un uzticams auto. Manā auto ekspluatēšanas laikā,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/fmdnc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSaimnieks pārdod savu ļoti kopto, tehniski un vizuāli perfekto aut' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/mondeo/dxbkd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTirgojas auto ar tikko izietu jaunu apskati, motors kārba strādā ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/amkoe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod 2003.gada Ford Focus labā tehniskā stāvoklī ar mazu nobra' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/s-max/bbpfln.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nS-Max Titanium, 2.2Tdci, 147kw/200zs. \r\nĀdas salons, \r\nElektrisk' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/cphlo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu uzticamu Ford Focus ar oriģinālu nobraukumu. pirkts Latvij' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/mondeo/adeil.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOficiālais Ford pārstāvis Inchcape piedāvā mazlietotu Ford Monde' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/focus/npfhc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ar piegādi mājās. Bez pirmās iemaksas. \r\nAr jebkādu kred' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/ford/transit/egnix.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Fordu Transit, īsais augstais, piekabes āķis, jauna TA, v' at line 1
+category: https://www.ss.lv/lv/transport/cars/ford/sell/ completed at 139.64877820014954 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/jazz/bcdlod.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodas lietots auto. braukšanas kārtībā. Tehniskais un vizuāl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/cr-v/bxgph.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Honda Cr-v в идеальном техническом ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/accord/ffcjd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu auto, nu principa Detalas, jo iegadajos savai Hondai ka Donor' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/civic/ehgxn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nHonda Civic 5D, 1.8 benzīns, automāts, viens īpašnieks, pirkta ja' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/cr-v/amhne.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Hondu Cr-V, labu džipiņu, jaunu iegādātu salonā Latvij' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/cr-v/cfcxk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSteidzami, zem tirgus cenas. Honda Cr-V 2012.gada, 2.2dīzelis, ļoti' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/legend/bdxjb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nВ хорошем техническом состоянии, есть' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/jazz/akeen.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Honda Jazz. Viss info pa zemāk norādīto tel nr.<br/', 
+   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/accord/fgmgb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu savu hondiņu. Jaunas ziemas riepas, nodoklis nomaksāts. To' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/accord/cbkxn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю машину машину, торг уместен.<br/'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/cr-v/cgfdh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĀdas Salons. 103Kw, Executive. Vācijas, divi saimn. Oriģinālais g' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/civic/dbjno.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nHonda Civic 1.6Vtec 110z/s ar mehanisko ātrumkārbu (5 ātrumi) un v' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/honda/cr-v/aolni.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko ievesta, Honda Cr-V 2.2i-cdti, dzīvoja Vācijā. Perfektā st' at line 1
+category: https://www.ss.lv/lv/transport/cars/honda/sell/ completed at 60.606250286102295 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/santa-fe/bpffhj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMašīna tikai no Vācijā. Panorāma, 4x4, Automatiska kārba, Liela' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/tucson/emlif.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nNesen atdzīts auto no Vācijas, reģistrēts Latvijā, jauna TA. <br' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/terracan/bphhd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Hyundai Terracan. <br/', 
+                    DetailsUpdated ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/kona/bpejbh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPraktiski jauns auto, motors 1.6 T benzīns, mazs braukts, ekonomisks' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/i30/mneec.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAutorizēts dīleris pārdod jaunu Hyundai i30. 1.6 dīzelis, mehāni' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/i30/cbocf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAutorizēts dīleris pārdod jaunu Hyundai i30. 1.6 dīzelis, mehāni' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/santa-fe/bblgdm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nHyndai Santafe. Lieliskā stāvoklī. Pretkorozijas apstrāde. Siksna' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/santa-fe/bdfxxc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродам машину в отличном состоянии .т' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/hyundai/santa-fe/opkxe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ar piegādi mājās. Bez pirmās iemaksas. \r\nAr jebkādu kred' at line 1
+category: https://www.ss.lv/lv/transport/cars/hyundai/sell/ completed at 57.387197494506836 seconds
+category: https://www.ss.lv/lv/transport/cars/infiniti/sell/ completed at 3.774273157119751 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/jaguar/xf/bnxcpb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJaguar jaguar xf 2.0 d 180 cv aut. R-Sport.<br/', 
+                  ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/jaguar/s-type/bkepp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTik zema cena tikai šodien. Pārdod Jaguar S-Type automašīnu ekskl' at line 1
+category: https://www.ss.lv/lv/transport/cars/jaguar/sell/ completed at 8.725840091705322 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/jeep/grand-cherokee/bdmxh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nDzv Auto / Grand Cherokee Latvijā nav ekspluatēts. \r\nCenā nodok' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/jeep/cherokee/dhmie.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSveiki. pārdodu jeep cherokee xj normālā tehniskā stāvoklī. pro' at line 1
+category: https://www.ss.lv/lv/transport/cars/jeep/sell/ completed at 16.713563919067383 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/kia/sportage/cxbidd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Kia Sportage 2.0 benzīns/gāze (izmaksas 6-7eur uz 100km) a' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/kia/sportage/bbiik.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodam saudzīgi lietotu, labi koptu Kia sportage, kura ir labā b' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/kia/ceed/bbjme.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nKia Ceed 2.0 Dīzelis. 2008 g. <br/', 
+                    DetailsUpd' at line 1
+category: https://www.ss.lv/lv/transport/cars/kia/sell/ completed at 40.288079500198364 seconds
+category: https://www.ss.lv/lv/transport/cars/lancia/sell/ completed at 3.099618434906006 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/land-rover/freelander/bldfe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Land Rover Freelander labā tehniskā un vizuālā stāvokl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/land-rover/range-rover/hcpol.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu. 2.dzipus. abi. braucami. ar. 1 d. atlauju. viens. ka. donors' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/land-rover/range-rover-sport/dcfhb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nRange Rover Sport Hse 3.0Sdv6 (306hp)<br/', 
+                    Deta' at line 1
+category: https://www.ss.lv/lv/transport/cars/land-rover/sell/ completed at 24.93722176551819 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/lexus/rx/fekbc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSteidzami .Pārdodu Lexus RX 450 Hybrid. Izpildīta leila apkope uz 1' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/lexus/gs/ejhxm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nIesākts projekts, motors 3.0 bendzīns 2Jz, 163Kw Ideālā kārtīb' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/lexus/rx/hbogk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nНовый тех осмотр, мотор заводится иде' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/lexus/rx/cmjbx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродам Lexus RX 220л. с 4x4 . Бензин/газ. Автом' at line 1
+category: https://www.ss.lv/lv/transport/cars/lexus/sell/ completed at 36.57471060752869 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/mazda/mazda6/cocge.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Mazda6, 1, 8 benzīns, jauna TA 28.10.2021.Samainīta eļļa,' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mazda/mazda3/gmdjl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSport GT Aero. Izturīgs japāņu auto ar lielu atlikušo resursu. Re' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mazda/premacy/ahocx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ar piegādi mājās. Bez pirmās iemaksas. \r\nAr jebkādu kred' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mazda/mazda6/cicbi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSamazināta cena no 4’200 Eur. <br/', 
+                    DetailsU' at line 1
+category: https://www.ss.lv/lv/transport/cars/mazda/sell/ completed at 42.578999280929565 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e220/felfg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Mercedes Benz E220 Cdi 2005 год. -дизель -ун' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/c200/gghhd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabā tehniskā stāvoklī. Pērc un brauc<br/', 
+                   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/c220/dexxg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nC220 Night Paket Black edition 143kW Domeniks dīlera garantija ar pa' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/a180/bxnhpl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаётся мерседес в отличном состоя' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e280/gkhni.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes Benz E280 Cdi 3.0 7 G-Tronic. 190 HP<br/', 
+                ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/cls350/bchlxk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes-Benz Cls 350 Limited Edition 200kw 272Ps<br/', 
+            ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/s350/hllkh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes-Benz S350 Long, 3, 5l benzīns/gāze. <br/', 
+              ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/sprinter/bxieme.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПроается Мерседес Sprinter 310 Maxi, легковой' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e320/fmgcp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Mercedes Benz E320 W211. 2004 gada izlaidums. Elegance kompl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e220/ekhgi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes-Benz. E220 2016 g. <br/', 
+                    DetailsUpdate' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e220/acxig.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes Benz E220 2.2D 110kW<br/', 
+                    DetailsUpdat' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/c220/fphpb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes C klasses universalis 2, 2 dīzelis<br/', 
+                 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/a170/bgncd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Mersedes Benz A-170 Dīzelis nobraukums 251 tūkstotis no ie' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/ml320/fcfmh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Mercedes Benz Ml320, izlaiduma gads 2007.gada decembris. Jau' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e240/giopl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n500eur Pirmā iemaksa. Tikko no vācijas. Vecais labais 210tais. Vien' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e250/cxijj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod, sakarīgu Mercedes Benz. 2, 5 dīzelis ekonomisks R15 lietie' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e300/fcmxe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiegojas Mersedes benz , 300d bez turbo , vizuali ir rūsa zem spārn' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/s320/ellhp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots Tikko no Nīderlandes atbraucis MB S-320 Auto ir teicam' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/e300/dpdig.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardot w124, e300d, labakais mercedes-benc, tehniska un vizuala laba ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mercedes/b200/bbxbex.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю удобную машину во всех смыслах' at line 1
+category: https://www.ss.lv/lv/transport/cars/mercedes/sell/ completed at 191.78644347190857 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/mini/cooper/bgfhhj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Mini Cooper labā stāvoklī, nesen izieta tehniskā apskate' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mini/clubman/biihxn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Mini Clubman, ļoti ekonomisks, panorāmas lūka, melnie gri' at line 1
+category: https://www.ss.lv/lv/transport/cars/mini/sell/ completed at 19.067897081375122 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/mitsubishi/galant/bhpfk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu auto. Labā tehniskā stavoklī.<br/', 
+                    D' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mitsubishi/pajero/ampne.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Savu pajero. TA līdz 2021.02., nodoklis par šo gadu nomaks' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mitsubishi/outlander/ghhhi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMitsubishi Outlander 2.0Did 103kw 4x4<br/', 
+                    Deta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/mitsubishi/outlander/bhkhng.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродается машина в хорошем техническ' at line 1
+category: https://www.ss.lv/lv/transport/cars/mitsubishi/sell/ completed at 37.9844183921814 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/juke/bflhne.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nNissan Juke 1.5 Dci 110 Tekna. Labākā komplektācija. Ādas salons ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/x-trail/odojm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nNo Vācijas , Garantija, 2.0 Dīzelis 110 kW 150zs\r\n6 pārnesumu me' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/note/ihdxj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko ievesta Latvijā. Loti bagāta komplektācija. Origināls nobra' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/primera/cbhbe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nIespējams Līzings no 49 Eur/mēn. Jauna TA 09.2021 Nissan Primera 1' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/juke/bfmhox.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod juke smukā sarkanā krāsā ar automātisko ātrumkārbu. Pi' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/qashqai/mmkmx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Nissan Qashqai 2.0i labā, tehniskā un mehānishā stāvokl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/qashqai/bbpdmc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMarka, modelis: Nissan Qashqai\r\nDzinējs: 1.2Dig-T 115zs (85kW)\r\n' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/nissan/micra/clccc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nЭкономичный и компактный авто в хорош' at line 1
+category: https://www.ss.lv/lv/transport/cars/nissan/sell/ completed at 85.59001326560974 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/bcxcgf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĻoti labā tehniskā stāvoklī, tikko veikta apkope un izieta tehni' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/corsa/nfgxk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Corsa 1.3 Cdti. 55 kW. <br/', 
+                    DetailsUpdate' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/hboec.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nСтарыий автомобиль, есть много корроз' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/chohm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna TA, derīga līdz 16.11.2021. 2.0d 74kw, 2000g. Nodoklis nomaks' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/corsa/cbikd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu atbildīgi uzturētu mašīnu. Pirkta jauna Latvijā, Amserv' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/corsa/efjek.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.5 TD. Ekanomiskais dīzelis. Patērņš uz 100km 4, 5-6 litri. Viss' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vectra/dncgi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Opel Vectra 2.2 Dti universālis 2005 gada. <br/', 
+        ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/bbhpdl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod mašīnu ar vizuāliem defektiem. Apskate līdz šī gada 1 d' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/bbxeh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nМашина в рабочем состоянии на газу ра' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vectra/geglg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodas labs opelits sikaka informacija pa otro noradito nr.<br/', 
+' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/cpcfg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Astra/facelift/1.7D/8 1Kw<br/', 
+                    DetailsUpda' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/bcdekm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu Opel Zafira 1.8 benzīns. Tikko izieta jaunā tehniskā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/dcihg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod labu un koptu Opel Astra. Atrodas Rīgā<br/', 
+             ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/combo/ecgle.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n2008 gada Opel Combo Tour 1.7 Cdti 74kw. Jauna TA\n\r\n- Jaunas M+S H' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vectra/bbefh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nМашин в хорошем состоянии налог оплач' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/dkgdn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVisi jautājumi pa telefonu.<br/', 
+                    DetailsUpdate' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/eembm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Opel Zafira dīzelis tikko no Beļģijas, piereģistrēts. T' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/bcldx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ideāla tehniskā stāvoklī, šogad nomainīti aizmugurējie br' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/corsa/anlol.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Corsa 1.2 automātiskā pārnesumkārba. <br/', 
+               ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vectra/hdbxn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSveiki. Gribētu es pamēģināt pārdod savu opeliti vectra c 2006 g' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/gbcmi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto no Vācijas. Automaśīna labā tehniskā un vizuālā stāvokl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vectra/bxedp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu šo Dodge furgonu 2, 5dizelis TA 09 2021 g. CO 1, 6 , vai ma' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vectra/bekfh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJaunas ziemas riepas 195/65R15. Parejo pa telefonu.<br/', 
+          ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/insignia/bngoed.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Opel Insignia Hatchback 2010, 2.0 Cdti 96Kw 131 ZS<br/', 
+   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra-van/cdeeo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю, в связи с покупкой другого авт' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/bdgdpe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nDzv Auto / Zafira 7vietīga, Latvijā nav ekspluatēts. \r\nCenā nod' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/bdcpf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Zafira 2003.gads. 2.0 Dti 7.vietas ir vizuāli defekti uz durvī' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/heedi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю по не надобности. автомобиль о' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/ejkgi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMašīna labi uzturēta, trūkumi laikā novērsti, šobrīd savesta ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/insignia/bmhelk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu, koptu un lolotu auto. Auto ir ļoti labā tehniskā stāvok' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/ggnol.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Zafira Tourer, 2.0tdi, 96kW. <br/', 
+                    Details' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/corsa/jlxmh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna auto stāvoklis<br/', 
+                    DetailsUpdated = '1'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/astra/bpdfi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ar piegādi mājās. Bez pirmās iemaksas. \r\nAr jebkādu kred' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/another/cxkfi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Grandland X 1, 6 Turbo Disel, automātiskā pārnesumkārba. Ma' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vivaro/biohdh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Zviedrijas. Opel Vivaro Floorcab 1.9cdti 74kW, 6 ātrumi, 20' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/vivaro/dklhc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nТолько из Германии, Opel Vivaro 1.9dci, в хорош' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/signum/elxxh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLēti vai mainu, Opel Signum 2.2 direct, 114.kw. , ar TA līdz 16.06.' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/opel/zafira/fxdih.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nOpel Zafira Elegance 2.0Tdi/74Kw/100Z/s dīzeļa dzinējs ar manuālo' at line 1
+category: https://www.ss.lv/lv/transport/cars/opel/sell/ completed at 205.91166043281555 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/406/aabln.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu automašīnu Peugeot 2000.gada ar jauno skati, labas ziemas ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/expert/ieohg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna TA šodien izieta. Pārdod vai maina ar piemaksu man. 9 vietīg' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/308/bmpndg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPeugeot 308 sw 1.6 Bluehdi 2016 g. <br/', 
+                    Detail' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/407/gfjlj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Peugeot 407, tikko izieta TA. Cena runājama. Sīkāk pa tele' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/partner/bbjdlp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodam ģimenes auto. Iegādāts Latvijā, regulāri apkopts, vēs' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/4007/mhbdd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПежо 4007<br/', 
+                    DetailsUpdated = '1' WHERE l' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/206/gkbkx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodu Peugeot 206 1.4 dīzelis. Trūkumi plaisa priekšējā stikl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/308/cxxhdm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Motors Berģi pārdod: Peugeot 308.\nAutomašīna apskatāma Wes' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/307/exgbp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nОчень хорошее состояние. Электро стек' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/307/piolj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n2.0Hdi Automāts. Klimatkontorle, pārkingsensori, sēdekļu apsilde.' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/508/blhoec.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю гибридный Peugeot 508Rxh c автоматиче' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/peugeot/307/njoom.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPeugeot 307sw 1.6i automātiskā ātrumkārba ar tikko izietu tehnisk' at line 1
+category: https://www.ss.lv/lv/transport/cars/peugeot/sell/ completed at 65.00445103645325 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/porsche/cayenne/bdepkk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabdien. Ja interese auto, lūdzu, rakstiet privāti e-pastā vai Sms' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/porsche/cayenne/bjigd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPorsche Ceyenne 3.0 340hp, garantija 2 gadi. 9000km<br/', 
+          ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/porsche/cayenne/bxblh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPorsche cayenne Platinum Edition. 2014 <br/', 
+                    De' at line 1
+category: https://www.ss.lv/lv/transport/cars/porsche/sell/ completed at 16.071228981018066 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/trafic/bimjin.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto labā tehniskā stāvoklī, jaudīgs motors. Ir nedaudz jāpiest' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/scenic/bgxhc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots Renault Megane Scenic 1.5 dci, 2012 g. izlaidums. Smuks' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/laguna/eeikc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots Renault Laguna Mk2 grandtour uz rezerves daļām. 200 e' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/laguna/cxxjd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod spēcīgu auto. 210 zs, kopts auto - pēdējā laikā veiktie' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/scenic/ciggh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nRenault Scenic 1.5 Dci. <br/', 
+                    DetailsUpdated = ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/trafic/begjkp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko atdzits, laba gan trhniska gan vizuāla kārtība, vinjete nav ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/laguna/cbfbg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdošanā ļoti ērts un braukšanā normāls, kā arī pietiekami' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/laguna/dgifd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаётся за 3500 без торговли. Ухоженн' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/megane/cdcge.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots labi uzturēts auto. Uzstādītas dienas gaitas lampas/' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/megane/enbcl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nReno Megane laba darba stāvokli. <br/', 
+                    Details' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/scenic/ixlgc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Renault Scenic 1.9 dCi, месяц назад устан' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/master/befcil.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto teicamā tehniskā, vizuālā stāvoklī, 135zs, veikta pilna ap' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/espace/nfcix.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nDaudz labu ekstru, četri elektriski logu pacēlāji, parkošanās se' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/renault/laguna/ijfjk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPiedāvāju koptu eksemplāru Renault Laguna 3. 2, 0Dci, 150 zs dzin' at line 1
+category: https://www.ss.lv/lv/transport/cars/renault/sell/ completed at 106.03586983680725 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/saab/9-3/hbxjx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu Saab auto, esmu LV vienīgais īpašnieks, auto iegād' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/saab/9-3/ogmhl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Saab 9-3 2.0 benzīns, <br/', 
+                    DetailsUp' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/saab/9-5/bgpgl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto, kas iederas - tūlītējus ieguldījumus neprasa - pavisam jaun' at line 1
+category: https://www.ss.lv/lv/transport/cars/saab/sell/ completed at 15.348504781723022 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/seat/leon/impbj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n81 KW / 110 zs, labākais motors, sukņa motors, ļoti ekonomisks, vi' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/seat/ibiza/epcfm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSeat ibiza 1.4. 44Kw. Tikko izieta tehniskā apskate. Nenozīmīgi vi' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/seat/leon/dfgkl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto tikko ievests , ritošā daļa labā stāvoklī , nekas negrab. ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/seat/leon/bxijdg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSeat Leon, tikko ievests\r\n1, 6 Tdi Ecomotive dīzelis (77kw-105zs)\' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/seat/ibiza/bxnfop.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nApkopes veiktas ik pa 15k km, ir servisa grāmatiņa ar pilnīgi vis' at line 1
+category: https://www.ss.lv/lv/transport/cars/seat/sell/ completed at 26.394043445587158 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/fabia/gidhp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu mašīnu teicamā tehniskā stāvoklī. Visas reizes tehnisk' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/octavia/bdxjxi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod 2014.gada Škoda Octavia 2l/150zs dīzeli gaiši brūnā krā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/octavia/anhbn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĪpašnieks pārdod Latvijā pirktu Škoda Octavia Combi Elegance 1.4' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/fabia/dljcm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFabia 1.2.tdi. <br/', 
+                    DetailsUpdated = '1' WHERE' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/fabia/efpmp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTeicams tehniskais un vizuālais stāvoklis. Tīrs, kopts salons. Eko' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/roomster/bmkdmk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nŠkoda Roomster 2014 gada, 16tdi, 66kw, Abs , ādas stūre , apsildā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/octavia/cjklx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabā teh. stāvoklī. Pārdodu vai mainu pret lētāku auto. Iespēj' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/superb/bfbcpe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabā tehniskā un vizuālā stāvoklī. Jaunas ziemas riepas uz r17 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/octavia/ecdxe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSvaiga T/a bez aizrādījumiem līdz 2021.g. nov. Automātiskā Dsg ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/kodiaq/bpgjpn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nŠkoda Kodiaq 2.0Tdi (150 Zs) ar Automātisko pārnesumkārbu Dsg, Ce' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/skoda/superb/omxmi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nŠkoda Suberb 1.9Tdi 77kw pati pilnaka komplektacija. <br/', 
+       ' at line 1
+category: https://www.ss.lv/lv/transport/cars/skoda/sell/ completed at 62.85829210281372 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/ssangyong/rexton/hkhdc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nMercedes dzinejs vecais bez elektronikas, mercedes karba, jauni bremz' at line 1
+category: https://www.ss.lv/lv/transport/cars/ssangyong/sell/ completed at 4.0999298095703125 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/subaru/outback/jbffb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSubaru Legacy Outback. 2.5i. Automāts. 2016 g. <br/', 
+             ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/subaru/impreza/aojmm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodas labs subaru dzimis ar 1.6 bet, tagad ielikts 2.0 izieta jaun' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/subaru/outback/effbx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Subaru Outback visu vai pa detaļām kā donoru, motors, āt' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/subaru/outback/cjooj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nМашина в хорошем состоянии, покупалас' at line 1
+category: https://www.ss.lv/lv/transport/cars/subaru/sell/ completed at 31.87971591949463 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/suzuki/sx4/becepm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto ar piegādi mājās. Bez pirmās iemaksas. \r\nAr jebkādu kred' at line 1
+category: https://www.ss.lv/lv/transport/cars/suzuki/sell/ completed at 9.489897966384888 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/rav-4/amibk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nRav4, 4x4, 110kw, feislifts, automats, ziemas pakete ar autonomo apsi' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/rav-4/gngmd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nАвтомобиль в хорошем техническом и ви' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/land-cruiser/eppoh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Toyota Land Cruiser 120 Nesen uz 465000 nomainīti bremžu di' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/auris/akooo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Toyota Auris, labā tehniskajā un vizuālajā stāvokli. Ja' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla-verso/ocmgb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nToyota Corolla Verso 2.2 D4D. <br/', 
+                    DetailsUpda' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/avensis/bbnopj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Toyota Motorsport. Авто только пригнан' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/auris/bhmein.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nToyota Auris. 2.0 D4D. 2009 g. <br/', 
+                    DetailsUpd' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla/dedoo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПоменяно масло и все фильтра ремень г' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/verso/bmbdkm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nToyota Verso 2.0D4D 93kw / 7 vietas<br/', 
+                    Detail' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla-verso-ii/ndmpn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod ģimenes auto, jaudīgs, ekonomisks, ar mašīnu vizināti ma' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/avensis/bjehld.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFacelift modelis (sākot ar 2006 gadu). Atrumkārba labā darba kārt' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/avensis/fgbxh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabā tehniskā stāvoklī. Latvijā viens saimnieks. Sīkāk pa tele' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/auris/bkhxip.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nNo Vācijas , Garantija, 2.0 D4D 93 kW 126zs\r\n6 pārnesumu mehānis' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/rav-4/bxmggp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu 2007.12. gada Toyota Rav4, 2.2 dīzelis. Auto ir labā stāv' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/hilux/bpnex.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Berģi: Jauns auto. Black Edition, A/t, navigācija, kāpšļi, ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla/bclhi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nИз Эстонии. Продаю в хорошем состояни' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla/ffbfk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Berģi: Corolla Active, garantija, ziemas riepas, izcilā stāvo' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/rav-4/ppljd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nХороший автомобиль. Покупался, обслуж' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/auris/bjxfox.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPirkts jauns Latvijā pie dīlera, ar tīriem papīriem un ciltsrakst' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/avensis/bkdngb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Berģi: Avensis Active Plus, garantija, izcilā stāvoklī. \n\r' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla/aoehn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nWess Berģi: Corolla Active, garantija, ziemas riepas, izcilā stāvo' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/land-cruiser/djecx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nToyota Land Cruiser 150 60th Anniversary, jaunā tipa motors 140kw, j' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/verso/bncmfb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Francijas - Toyota Verso /7 sēdvietas/ 2.0 D-4D motors 93 k' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/corolla/blbmx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nValmiera , Tiko izieta jauna tehniskā apskate, divi komplekti riepas' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/avensis/bieefe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSvaiga TA - 19.08.2020., 2004.gada auto, 85kw, 2, 0l dīzelis, motors' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/avensis/bxdkk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĀdas salons, jaunas ziemas riepas, nesen veikta apkope. Auto laba te' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/yaris/bjedi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSaimniece pardod labā tehniskā stavoklī, ir sīki vizuālie defekt' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/auris/cifim.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Toyotu Auris ļoti labā stāvoklī, ar ļoti labu komplekt' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/rav-4/fkiob.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nЭкономичный, семейный, в хорошем сост' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/urban-cruiser/cxhoxd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.4 .d4d .66kw. Luxus. 162000 km. т. ч из Франции в от' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/toyota/rav-4/acpje.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPādodu mašīnu Rav 4 Toyota, ļoti labā tehniskā, ekspluatācijas' at line 1
+category: https://www.ss.lv/lv/transport/cars/toyota/sell/ completed at 187.2501504421234 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/ekiol.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod auto tikko no Vācijas. Mp-6070. Auto lieliskā stāvoklī. K' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/sharan/bhodh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod VW Sharan Highline. <br/', 
+                    DetailsUpdate' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/new-beetle/gdlfb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродается любимая машина жены. <br/', 
+    ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b7/blmlbl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nHighline aprīkojums, 170 zs dzinējs. <br/', 
+                    De' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-alltrack/blnxle.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPassat saimes flagmanis - Alltrack, baltajā – veiksmes krāsā, ļ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/odlxn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu VW Passat Variant B5 1997.g.<br/', 
+                    Deta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b6/nexkx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n4 Motion Салон алькантара Полный привод .' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/caddy/ffcnn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSakarā ar autoparka maiņu tiek pārdots Vw caddy, lai izietu skati ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b4/nffkb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu uzticamu, koptu auto labā tehniskā stāvoklī. Ir nelieli ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/bnmfl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю Golf 4 1.9 Tdi 74Kw. Примерно 2000 км наза' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-6/bkkcgb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPardodas ekonomisks, kopts golf6.Viens saimnieks Latvijā , pirmā re' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/polo/efcje.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikai ar pārrakstīšanu. Cena runājama.<br/', 
+                   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-7/bmbckj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto tiek pārdots, jo pašam nepieciešams lielāks spēkrats. Auto ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b3/ncfcg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nОтличное техническое и визуальное со' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-6/bjoddm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Golf 6, 2.0tdi, common rail, čipots, 81kw, mehániská átrumkár' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-3/fgbgk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.9 tdi 66kw. Siksnas mainītas, eļļa arī. Defekts - dūmo motors ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/bbexhb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nGolf 4 2000g. 1.9 tdi , 81 kw , 110 z/s , ir vizuali defekti , sikak ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/nklbb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu B5+Passātu ar ekanomisko 1.6 benzīna dzinēju. <br/',' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/nbkdo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu B5+ Passātu ar ekanomisko 1.9tdi dzinēju. <br/', 
+   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-5/dhbbl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu 5 golfu ar ekanomisko1.4 benzīna dzinēju. <br/', 
+   ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-5/bckjpc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nRūsas nav. Eļļu neēd.<br/', 
+                    DetailsUpdated =' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/transporter/dcifd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.9 dīzeļa dzinējs\r\nJauda: 63 kw\r\nPirmā reģistrācija: 05.20' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/tiguan/cxixkd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto no Vācijas, Latvijā nav ekspluatēta\r\n1.4 benzīna dzinējs\' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-6/bcdijj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAutomāts, labā stāvoklī, pateriņš 5-6l, ziemas un vasaras riepu' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/ehojb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Golf Variant, 1.6, бензин, 77 kW/105 л. с. мех. кп. ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/bbpjfh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSveiki, pārdodu labu koptu golfu ar veco labo 1.9tdi 85kw. Vizuali u' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-cc/bednlh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю 5ти местный VW CC 2013 года 2.0 Tsi. <br/',' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/lt/apdch.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTransportlīdzkelis kopš 2012.gada izmantots tikai vasarās - motosp' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-2/fmhfj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots uzticams draugs labā tehniskā kārtībā VW Golf 1988' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/tiguan/mpmox.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Tiguan Facelift 2, 0 Tdi 103 KW / 140 ZS 4Motion 4x4 Automāts Dsg' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/bcxiol.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu ļoti labā stāvoklī Golf 4 , jaunas ziemas riepas, sīkā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-5/hcjmb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko izieta tehniskā apskate. Latvijā viena īpašniece. Auto ir t' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/touareg/bckfkd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Touaregu. Teicamā tehniskajā un vizuālā stāvoklī. Maza' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b6/necfx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodam savu brūnīti. Auto gadu kā Latvijā. Braukusi sieviete. ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/touran/cbejj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nNo Vācijas janvārī, mainīts siksnu komplekts, eļļa, melns ādas' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/touran/bieimf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Vācijas, VW Touran Cross, 1.9Tdi 77kw/105zs, 6 ātrumi, din' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/oechp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna tehniskā apskate. <br/', 
+                    DetailsUpdated =' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/nfgdx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu pasātu. <br/', 
+                    DetailsUpdated = '1' WH' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-3/cbmlp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod sportisku auto, hidrauliskais jumts strādā, ir vēja aizsar' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-5/adbxx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Golf variant, 1.9 Tdi, manuālā ātrumkārba, universālis, ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-5/cijen.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nĪpašniece uzticēja atrast jaunu saimnieku/ci, šim vilkam aitas ka' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/polo/fcoji.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko izieta TA. Seat Ibiza 2008 gada 1.4 dīzelis (59 kW). Būvēts ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/tiguan/cxhmep.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto pirkts Moller Auto Lidosta VW dīlercentrā. Dīlera garantija l' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/bora/cmgnj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu vw bora, ļoti ekonomisks auto, vizuāli labā stāvoklī, k' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/sharan/bmiii.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.9 Tdi 81Kw. <br/', 
+                    DetailsUpdated = '1' WHERE ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/multivan/cdhjk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodam savu Volkswagen Multivan ar 2.5 dīzeļa dzinēju un manuā' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b6/bbdbcj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Passat B6 2.0D 2006.gads. Dīzelis. Manuālā ātrumkārba, 6 ātr' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/polo/cmeem.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Polo Blue GT <br/', 
+                    DetailsUpdated = '1' WHER' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-7/bhhcjo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSeat Leon FR 1.8Tsi 132kW/180zs. Garantija līdz 11.2022. gadam. R19 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/bhnbn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Golf 4 110kw, bez tehniskās apskates. Motors darbojas ļoti' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/bxmxeg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Golf 4, tikko ievests\r\n1, 4 benzīns \r\nPirmreizējā reģistr' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/caddy/fxxeo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVw caddy 2012.gada 1, 6 d 75 kw <br/', 
+                    DetailsUp' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/tiguan/ifdgd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiguan, 2.0 Tdi, automāts 7 pārnesumi, labā stāvoklī. Auto atrod' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b6/nbbbk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Passat Highline 4Motion/4x4/2.0tdi/10 3kw/140zs/tikko no Vācijas\' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-6/bcibni.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek pārdots VW Golf 6 (77kW = 105 zs) labā tehnikā stāvokļī. V' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/new-beetle/eojbn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod VW Beetle 1.9tdi ar automātisko kārbu <br/', 
+             ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/nfepp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdošanā VW Passat b5+<br/', 
+                    DetailsUpdated ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-3/dlpcc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLēta darba mašīna ar tehnisko apskati. dzinējs un ritošā daļa ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-7/cxixje.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolkswagen Golf Vii 1.4 Tsi 90 kW (122 Ps) \r\nОтличное те' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/acbhe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTiek tirgots VW Golfs 4 Gti 1.8<br/', 
+                    DetailsUpd' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/touran/cfbgl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod tehniski labu auto. Nesen mainīti bremžu diski un kluči , ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/polo/cllmm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n29.12.2006 gada tiko atvests no Holandes, piereģistrēts un visas no' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/hkejk.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nČetras durvis. Jauna TA. Praktisks un ekonomisks auto. Apsildāmi s' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/bora/gpepp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Bora 1.9 Tdi 96kw, patēriņš 5.5-6.5l /100km<br/', 
+            ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-plus/bnxdix.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko atbraucis no Vācijas. 2.0tdi 103kw. Viena saimnieka auto. Zvan' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/touran/aeogd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1.9Tdi 77kW pilna servisa vesture pie VW dilera, no Belgijas, 2 atsle' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/ejpxn.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu VW Golf/1.4/55 kW/labā stāvoklī. <br/', 
+                ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/phaeton/bxgfo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nОценил комфорт этой машины только пос' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b4/nedmf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nB4 Begimotiņš ar 1.9tdi dzinēju 66Kw, Ekonomisks 5litri, motors mu' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/touareg/blgibb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Touareg Facelift modelis 3.0Tdi V6 8 ātrumu parnesumkārba<br/', ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b5/nxhei.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nБензин-газ. 101 HP. Экономичная. Техничес' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/jetta/eepfh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\n1 Saimnieks. \r\nAuto ar piegādi mājās. Bez pirmās iemaksas. \r\n' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/tiguan/bgmfgf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVW Tiguan 2, 0 Tdi Bmt Dsg 4Motion \"Highline\"\n\r\nAprīkojums:\n\r' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/golf-4/adpxm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVw golf 4, 1.9tdi, manuālā kārba. \n\r\nEl. regulējami logi, spog' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/passat-b7/bmbcck.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu VW Passat B7 Comfortline ar labu papildus komplektāciju. Au' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volkswagen/jetta/bcghx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdou savu loloto ģimenes auto VW Jetta, 2008. gada 1.6 benzīns, ' at line 1
+category: https://www.ss.lv/lv/transport/cars/volkswagen/sell/ completed at 456.54557847976685 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/bdegmd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Volvo V70, 2002. gada, ar 2.4 D5 163Zs dīzeļdzinēju. Apska' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/cldkp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu labu Volvo V70 2.4 D5 2003 gada izlaiduma. <br/', 
+         ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v50/bkefjh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродаю машину , т. к купил другую , масл' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/c70/cklng.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Volvo C70 cabrio ar cieto jumtu 2, 4 diesel, 132 kw<br/', 
+  ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc90/bfedix.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Volvo Xc90 Inscription komplektācija<br/', 
+                ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v50/bdxbkh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu zviedru raķeti Volvo V50 ar 2.0 D motoriņu un manuālo 6pa' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/bxpfxj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo V70 Facelift, 2.0d, D3, 120kw, 6pakāpju manuālā ātrumkārba' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/gxgnd.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko ievests Volvo V70 R-Design pilnākās komplektācijas, retums ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/bxidmi.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nRezerves dalam , auto 2 gadi stav , kad auto nolika viss bija kartiba' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/bxkfli.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Volvo V70 2015/01 D5 6Man R-Design Facelift , Latvijā nav br' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s80/gchjx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAutoveikals pārdod Volvo S80 2013/02 2.0D Automāts, Xenons, apsild' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s40/hmhbj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu mašīnu ejošā kārtībā, tehniskā apskate līdz 29.12.2' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s40/akdgl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Francijas. Volvo S40 Summum 1.6D 80 kW / 110 zs, aprīkota a' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s80/bcpdii.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nJauna TA bez aizrādījumiem, auto teicamā tehniskā un vizuālā st' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v90/boogfo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo V90 Awd Cross Country Pro 2.0 D5 235 Zs, pilnākā komplektāci' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v50/aekii.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto labā kārtībā, braukusi sieviete, Šodien Izieta Apskate<br/'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc90/bedggm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko No Vacijas. 2008 Gads. Mehaniska Karba. Pilna Komplektacija : M' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v40/pbhbc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabs ekonomisks un dzivs auto ar tiko izietu apskati un nomaksatu nod' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/gljcc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Volvo V70 2.4 D, 120 KW. <br/', 
+                    Details' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v60/bpfgcg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo V60 2.0 D3. (120kw-163z/s). Jaudīgs, ekonomisks Volvo piecu ci' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v50/clpbb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Volvi V50, savulaik atbraukusi no Francijas, Latvijā viena ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s80/bdxnef.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПригнан с Франции 3г назад. Все тех. Бе' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s40/aoebx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu volvo s40 1.9 dīzelis 85kw. Automašīna normālā stāvokl' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s60/bccodj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nПродается машинка в хорошем техничес' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s80/hfgeo.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSakarā ar jaunu auto iegādi pārdodu Volvo S80 labā stāvokli, jau' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/epfnh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu savu uzticamo auto ar 2.5l 103kw dzinēju. Pati ar auto brau' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc90/beeicg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo XC 90 d5 136 kw Tikko no Aurich ( Vācija )<br/', 
+            ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v40/bxbeom.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nTikko no Vācijas, Volvo V40 / 1.9dīzelis - 85kw. Manuālā ātr. k' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s60/bgpmjg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nМашина в идеальном состоянии. В Латви' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v60/bnxdkc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nIdeāls auto ideālam braucējam - sēdies un brauc. Summum komplekt' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v50/bhpmil.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nFacelift, 1.8 benzīns, 92 kW, ekonomisks, <br/', 
+                  ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc60/bgjmhf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo xc60 2.4 d5 awd<br/', 
+                    DetailsUpdated = '1'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v60/bmxpib.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nV60 1.6D2, 84kw/114zs\r\nKlimata kontrole, \r\nKruīza kontrole, \r\n' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s60/amekp.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo S60 2.4 D5 Summum<br/', 
+                    DetailsUpdated = '' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/bbxmm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto stāvoklis atbilstoš auto nobraukumam un gadiem. Tikko izieta t' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc60/bghdcl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nAuto tikko no Nīderlandes. Piereģestrēts Latvijā un izieta Tehnis' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s60/bcnch.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nLabs auto 120kw, siksnas mainītas 40t iepriekš, eļļa un filtri pi' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v70/bexmgg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo v70 2.4 bendzins. 2001 gads. Auto laba tehniska un vizuāla sta' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc70/bjbohx.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSumman 136kw, ar bagātīgu komplektāciju. Jauna apskate, nodokļi s' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s80/gkexf.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu savu volvo, mīlētu un koptu. Tiko izieta svaiga apskate. A' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/c30/bpcjpj.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo / C 30 1.6d Drive, Tikko ieviests no Vācijas. Piereģistrēts ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc70/adjkb.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nD5, 120 kW, 6 ātrumi, klimata kontrole, kruīza kontrole, ādas salo' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc90/bcedeg.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVolvo Xc90 Momentum, 7 sēdvietas, Awd D5 2.0 dīzelis, 8-pak. autom' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/v50/bilmkh.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nSummum komplektācija<br/', 
+                    DetailsUpdated = '1'' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/xc90/bdmcfc.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nXc90 Summum, 7 Vietas, 2.4D5, Tikko ieviests no Francijas. Piereģist' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/volvo/s80/cngkm.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nVisspilnaka komplektacija. Visas ekstras strada. Dzinejs un karba str' at line 1
+category: https://www.ss.lv/lv/transport/cars/volvo/sell/ completed at 305.0070607662201 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/moskvich/401/ckxpe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdodu Moskviču 401, virsbūve ne pārāk sarūsējusi, turēts ga' at line 1
+category: https://www.ss.lv/lv/transport/cars/moskvich/sell/ completed at 4.5615949630737305 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/uaz/469/fxgke.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nPārdod Uaz469 auto ir projekta stadijā, virsbūve laba un agregāti' at line 1
+category: https://www.ss.lv/lv/transport/cars/uaz/sell/ completed at 4.028209924697876 seconds
+category: https://www.ss.lv/lv/transport/cars/gaz/sell/ completed at 5.972700119018555 seconds
+category: https://www.ss.lv/lv/transport/cars/vaz/sell/ completed at 9.393174171447754 seconds
+error in link: http://www.ss.lv/msg/lv/transport/cars/smart/forfour/bigno.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nЭкономичный, но шустрый Forfour 1, 5 Cdi авто' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/daihatsu/cuore/opihe.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nDaihatsu (материнская компания Toyota) Cuore, 1.0 ' at line 1
+error in link: http://www.ss.lv/msg/lv/transport/cars/smart/fortwo/jxehl.html
+1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '+ '\r\n\r\nМаленькое экономичное, городское авт' at line 1
+category: https://www.ss.lv/lv/transport/cars/others/sell/ completed at 15.50433874130249 seconds
+whole process finished in: 3257.2325036525726 seconds

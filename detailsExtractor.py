@@ -29,13 +29,26 @@ def getCarDetails(detailsPageLink):
         equip_set += equipment.text + "|"
 
     #----------------Apraksts-------------------------------
-    apraksts = soup.find(id='content_sys_div_msg').findNextSibling(text=True)
-    aprakstsNext = str(apraksts.nextSibling)
+    #apraksts = soup.find(id='content_sys_div_msg').findNextSibling(text=True)
+    #print(apraksts)
+    #while True:
+    #    apraksts = str(apraksts.nextSibling)
+    #    print(apraksts)
 
-    soup2 = BeautifulSoup(aprakstsNext[:aprakstsNext.find("<table")], "html.parser")
-    description = str(apraksts) + soup2.text
+    #aprakstsNext = str(apraksts.nextSibling)
+    #print(aprakstsNext)
 
+    #soup2 = BeautifulSoup(aprakstsNext[:aprakstsNext.find("<table")], "html.parser")
+    #description = str(apraksts) + soup2.text
+    #print(soup2.text)
+    startString = '<div id="content_sys_div_msg" style="float:right;margin:0px 0px 20px 20px;"></div>'
+    endString = '<table'
 
+    aprChildren = str(soup.find(id='content_main_div'))
+
+    soup2 = BeautifulSoup(aprChildren[aprChildren.find(startString)+len(startString):aprChildren.find(endString)], "html.parser")
+    description = soup2.text
+    #print(soup2.text)
 
     #marka, gads, motors, karba, nobr, krasa, virsb, apskate, apriko
     detailsList = [
@@ -51,6 +64,7 @@ def getCarDetails(detailsPageLink):
             description
         ]
 
+    #print(description)
     return detailsList
 
 def getMotorcycleDetails(detailsPageLink):
@@ -95,5 +109,5 @@ def getMotorcycleDetails(detailsPageLink):
     return detailsList
 
 
-#getCarDetails("https://www.ss.lv/msg/lv/transport/cars/kia/optima/blnbbl.html")
-#print(getMotorcycleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/yamaha/fomho.html"))
+#print(getCarDetails("https://www.ss.lv/msg/lv/transport/cars/dodge/nitro/akpce.html"))
+#print(getMotorcycleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/yamaha/fomho.html"))a

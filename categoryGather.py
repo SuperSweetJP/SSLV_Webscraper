@@ -122,7 +122,7 @@ def mysqlUpdateDetails(link, header, subCategory):
         try:
             if subCategory == categoryList[0]:
                 detailsList = detailsExtractor.getCarDetails(link)
-                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts + %s, 
+                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts = %s, 
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             elif subCategory == categoryList[1]:
                 detailsList = detailsExtractor.getMotorcycleDetails(link)
@@ -170,10 +170,10 @@ for subCat in carCategoryList:
 #    start_timeCat = time.time()
 #    subCatPageLoop(subCatLink, categoryList[0])
 #    run_timeCat = time.time() - start_timeCat
-#    print("category: {} completed at {} seconds \n".format(subCatLink, run_timeCat))
+#    print("category: {} completed at {} seconds".format(subCatLink, run_timeCat))
 #except Exception as ex:
-#    print("issue in category: {} \n".format(subCatLink))
-#    print(ex + "\n")
+#    print("issue in category: {}".format(subCatLink))
+#    print(ex)
 
 run_time = time.time() - startTime
 print(f"whole process finished in: {run_time} seconds")
