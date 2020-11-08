@@ -40,8 +40,6 @@ def scrapeListPage(pageLink):
     for header in soup.find_all('a', class_="am"):
         extract = header.text.splitlines()
         extract2 = ''.join(extract)
-        #JP:there can be two identical headers, removing unique check
-        #if extract2 not in unique_header_set:
         unique_header_set.append(extract2)
     
     resultDict = {unique_link_set[i]: unique_header_set[i] for i in range(len(unique_link_set))}
@@ -67,10 +65,8 @@ def subCatPageLoop(catLink, subCat):
         i += 1
 
 
-#ToDo: add db logic here, add details gather call here
 def processLinksDb(linkDict, subCategory):
     for x, y in linkDict.items():
-        #print(x)
         #check if link and header combo already in db
         #Cars
         if subCategory == categoryList[0]:
@@ -122,7 +118,7 @@ def mysqlUpdateDetails(link, header, subCategory):
         try:
             if subCategory == categoryList[0]:
                 detailsList = detailsExtractor.getCarDetails(link)
-                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts = %s, 
+                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts = %s, Cena = %s,
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             elif subCategory == categoryList[1]:
                 detailsList = detailsExtractor.getMotorcycleDetails(link)

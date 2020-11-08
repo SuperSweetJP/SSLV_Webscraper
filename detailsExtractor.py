@@ -1,7 +1,4 @@
-#!/usr/bin/python
-# -*- coding: latin1 -*-
-
-import requests
+ï»¿import requests
 from bs4 import BeautifulSoup
 
 
@@ -21,7 +18,6 @@ def getCarDetails(detailsPageLink):
     for varValue in baseTable.find_all('td', class_='ads_opt'):
         detailsValueList.append(varValue.text)
 
-
     dictDetails = dict(zip(detailsNameList, detailsValueList))
 
     equip_set = ""
@@ -29,18 +25,6 @@ def getCarDetails(detailsPageLink):
         equip_set += equipment.text + "|"
 
     #----------------Apraksts-------------------------------
-    #apraksts = soup.find(id='content_sys_div_msg').findNextSibling(text=True)
-    #print(apraksts)
-    #while True:
-    #    apraksts = str(apraksts.nextSibling)
-    #    print(apraksts)
-
-    #aprakstsNext = str(apraksts.nextSibling)
-    #print(aprakstsNext)
-
-    #soup2 = BeautifulSoup(aprakstsNext[:aprakstsNext.find("<table")], "html.parser")
-    #description = str(apraksts) + soup2.text
-    #print(soup2.text)
     startString = '<div id="content_sys_div_msg" style="float:right;margin:0px 0px 20px 20px;"></div>'
     endString = '<table'
 
@@ -48,23 +32,25 @@ def getCarDetails(detailsPageLink):
 
     soup2 = BeautifulSoup(aprChildren[aprChildren.find(startString)+len(startString):aprChildren.find(endString)], "html.parser")
     description = soup2.text
-    #print(soup2.text)
+   
+    priceElemenet = soup.find(class_="ads_price")
+    price = priceElemenet.find(class_="ads_price").text
 
     #marka, gads, motors, karba, nobr, krasa, virsb, apskate, apriko
     detailsList = [
             dictDetails.get('Marka ', ''),
             dictDetails.get('Izlaiduma gads:', ''),
             dictDetails.get('Motors:', ''),
-            dictDetails.get('Âtr.kârba:', ''),
+            dictDetails.get('Ä€tr.kÄrba:', ''),
             dictDetails.get('Nobraukums, km:', ''),
-            dictDetails.get('Krâsa:', ''),
-            dictDetails.get('Virsbûves tips:', ''),
-            dictDetails.get('Tehniskâ apskate:', ''),
+            dictDetails.get('KrÄsa:', ''),
+            dictDetails.get('VirsbÅ«ves tips:', ''),
+            dictDetails.get('TehniskÄ apskate:', ''),
             equip_set,
-            description
+            description,
+            price
         ]
 
-    #print(description)
     return detailsList
 
 def getMotorcycleDetails(detailsPageLink):
@@ -83,9 +69,6 @@ def getMotorcycleDetails(detailsPageLink):
     for varValue in baseTable.find_all('td', class_='ads_opt'):
         detailsValueList.append(varValue.text)
 
-    print(detailsNameList)
-    print(detailsValueList)
-
     dictDetails = dict(zip(detailsNameList, detailsValueList))
 
     equip_set = ""
@@ -97,17 +80,17 @@ def getMotorcycleDetails(detailsPageLink):
             dictDetails.get('Marka ', ''),
             dictDetails.get('Izlaiduma gads:', ''),
             dictDetails.get('Motors:', ''),
-            dictDetails.get('Âtr.kârba:', ''),
+            dictDetails.get('Ã‚tr.kÃ¢rba:', ''),
             dictDetails.get('Nobraukums, km:', ''),
-            dictDetails.get('Krâsa:', ''),
-            dictDetails.get('Virsbûves tips:', ''),
-            dictDetails.get('Tehniskâ apskate:', ''),
+            dictDetails.get('KrÃ¢sa:', ''),
+            dictDetails.get('VirsbÃ»ves tips:', ''),
+            dictDetails.get('TehniskÃ¢ apskate:', ''),
             equip_set
         ]
 
-    #print(detailsList[4])
+    print(detailsList[6])
     return detailsList
 
 
-#print(getCarDetails("https://www.ss.lv/msg/lv/transport/cars/dodge/nitro/akpce.html"))
+#getCarDetails("http://www.ss.lv/msg/lv/transport/cars/dodge/caliber/gkifc.html")
 #print(getMotorcycleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/yamaha/fomho.html"))a
