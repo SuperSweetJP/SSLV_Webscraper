@@ -28,10 +28,14 @@ def scrapeListPage(pageLink):
     unique_link_set = list()
     unique_header_set = list()
 
+    #get everything between 3rd and 6th backslash(/)
+    sepLocList = detailsExtractor.find(pageLink, '/')
+    checkLink = pageLink[sepLocList[3]+1:sepLocList[6]]
+
     source = requests.get(pageLink)
     soup = BeautifulSoup(source.content, "html.parser")
     for link in soup.find_all("a", href=re.compile('/msg/')):
-        if 'msg/lv/transport/cars/' in link.get('href'):
+        if checkLink in link.get('href'):
             link = (link.get('href'))
             link = "http://www.ss.lv{}".format(link)
             if link not in unique_link_set:
@@ -67,13 +71,14 @@ def subCatPageLoop(catLink, subCat):
 
 def processLinksDb(linkDict, subCategory):
     for x, y in linkDict.items():
+        #print(x)
         #check if link and header combo already in db
         #Cars
         if subCategory == categoryList[0]:
             sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
         #Motorcycles
         elif subCategory == categoryList[1]:
-            sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
+            sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from MotoTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
 
         parm = (x, y)
 
@@ -84,11 +89,12 @@ def processLinksDb(linkDict, subCategory):
         if rows == 0:
             #Cars
             if subCategory == categoryList[0]:
-                sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen) VALUES (%s, %s, %s, %s)"
+                sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen, LastSeen) VALUES (%s, %s, %s, %s, %s)"
             #Motorcycles
             elif subCategory == categoryList[1]:
-                sqlInsert = "INSERT INTO CarsTable (link, Header, Category, FirstSeen) VALUES (%s, %s, %s, %s)"
-            parmIns = (parm[0], parm[1], categoryLink, runDateTime)
+                sqlInsert = "INSERT INTO MotoTable (link, Header, Category, FirstSeen, LastSeen) VALUES (%s, %s, %s, %s, %s)"
+            parmIns = (parm[0], parm[1], categoryLink, runDateTime, runDateTime)
+            #print(parmIns)
             mycursor.execute(sqlInsert, parmIns)
             mydb.commit()
 
@@ -107,22 +113,22 @@ def processLinksDb(linkDict, subCategory):
                 sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
             #Motorcycles
             elif subCategory == categoryList[1]:
-                sqlUpdate = "UPDATE CarsTable SET LastSeen = %s WHERE link = %s AND Header = %s"
+                sqlUpdate = "UPDATE MotoTable SET LastSeen = %s WHERE link = %s AND Header = %s"
             parmUpd = (runDateTime, parm[0], parm[1])
             mycursor.execute(sqlUpdate, parmUpd)
             mydb.commit()
 
 
-def mysqlUpdateDetails(link, header, subCategory):
+def mysqlUpdateDetails(link, header, category):
         #fetch details for the link, return them as a list?
         try:
-            if subCategory == categoryList[0]:
-                detailsList = detailsExtractor.getCarDetails(link)
+            detailsList = detailsExtractor.getVehicleDetails(link)
+            if category == categoryList[0]:
                 sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts = %s, Cena = %s,
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
-            elif subCategory == categoryList[1]:
-                detailsList = detailsExtractor.getMotorcycleDetails(link)
-                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, 
+            elif category == categoryList[1]:
+                #marka, modelis, gads, motors, apraksts, cena
+                sqlUpdateDetails = '''UPDATE MotoTable SET Marka = %s, Modelis = %s, Gads = %s, Motors = %s, Apraksts = %s, Cena = %s, 
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             #detailsUpdated bool
             detailsList.append("1")
@@ -139,6 +145,7 @@ def mysqlUpdateDetails(link, header, subCategory):
 startTime = time.time()
 
 #Cars
+print("cars category started at: {}".format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
 for subCat in carCategoryList:
     try:
         start_timeCat = time.time()
@@ -150,21 +157,22 @@ for subCat in carCategoryList:
         print(ex)
 
 #Motorcycles
-#for subCat in motorcycleCategoryList:
-#    try:
-#        start_timeCat = time.time()
-#        subCatPageLoop(subCat, categoryList[1])
-#        run_timeCat = time.time() - start_timeCat
-#        print("category: {} completed at {} seconds".format(subCat, run_timeCat))
-#    except Exception as ex:
-#        print("issue in category: {}".format(subCat))
-#        print(ex)
+print("motorcycle category started at: {}".format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+for subCat in motorcycleCategoryList:
+    try:
+        start_timeCat = time.time()
+        subCatPageLoop(subCat, categoryList[1])
+        run_timeCat = time.time() - start_timeCat
+        print("category: {} completed at {} seconds".format(subCat, run_timeCat))
+    except Exception as ex:
+        print("issue in category: {}".format(subCat))
+        print(ex)
 
 
 #try:
-#    subCatLink = carCategoryList[9]
+#    subCatLink = 'https://www.ss.lv/lv/transport/moto-transport/motorcycles/ktm/sell/'
 #    start_timeCat = time.time()
-#    subCatPageLoop(subCatLink, categoryList[0])
+#    subCatPageLoop(subCatLink, categoryList[1])
 #    run_timeCat = time.time() - start_timeCat
 #    print("category: {} completed at {} seconds".format(subCatLink, run_timeCat))
 #except Exception as ex:
