@@ -69,7 +69,3 @@ def getVehicleDetails(detailsPageLink):
             price
         ]
     return detailsList
-
-
-#print(getVehicleDetails("http://www.ss.lv/msg/lv/transport/cars/dodge/caliber/gkifc.html"))
-#print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/yamaha/fomho.html"))

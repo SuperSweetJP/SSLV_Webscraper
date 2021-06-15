@@ -71,7 +71,6 @@ def subCatPageLoop(catLink, subCat):
 
 def processLinksDb(linkDict, subCategory):
     for x, y in linkDict.items():
-        #print(x)
         #check if link and header combo already in db
         #Cars
         if subCategory == categoryList[0]:
@@ -94,7 +93,6 @@ def processLinksDb(linkDict, subCategory):
             elif subCategory == categoryList[1]:
                 sqlInsert = "INSERT INTO MotoTable (link, Header, Category, FirstSeen, LastSeen) VALUES (%s, %s, %s, %s, %s)"
             parmIns = (parm[0], parm[1], categoryLink, runDateTime, runDateTime)
-            #print(parmIns)
             mycursor.execute(sqlInsert, parmIns)
             mydb.commit()
 
@@ -167,17 +165,6 @@ for subCat in motorcycleCategoryList:
     except Exception as ex:
         print("issue in category: {}".format(subCat))
         print(ex)
-
-
-#try:
-#    subCatLink = 'https://www.ss.lv/lv/transport/moto-transport/motorcycles/ktm/sell/'
-#    start_timeCat = time.time()
-#    subCatPageLoop(subCatLink, categoryList[1])
-#    run_timeCat = time.time() - start_timeCat
-#    print("category: {} completed at {} seconds".format(subCatLink, run_timeCat))
-#except Exception as ex:
-#    print("issue in category: {}".format(subCatLink))
-#    print(ex)
 
 run_time = time.time() - startTime
 print(f"whole process finished in: {run_time} seconds")
