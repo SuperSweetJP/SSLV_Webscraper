@@ -11,7 +11,7 @@ import linkLists
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="anubissayshello",
+  password="*******",
   database="sslv"
 )
 
