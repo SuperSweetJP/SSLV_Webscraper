@@ -73,6 +73,8 @@ def processLinksDb(linkDict, subCategory):
     for x, y in linkDict.items():
         #print(x)
         #check if link and header combo already in db
+        #ToDo: come back and think about this, because it will get slower and slower with time. Maybe there is a better way of doing this
+        #ToDo: start with table indexes
         #Cars
         if subCategory == categoryList[0]:
             sqlSelect = "SELECT link, Header, DetailsUpdated, FirstSeen from CarsTable WHERE link = %s AND Header = %s ORDER BY FirstSeen DESC LIMIT 1"
@@ -124,11 +126,12 @@ def mysqlUpdateDetails(link, header, category):
         try:
             detailsList = detailsExtractor.getVehicleDetails(link)
             if category == categoryList[0]:
-                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Apr = %s, Apraksts = %s, Cena = %s,
+                #ToDo: this needs major rework, I could clearly not do this selecting twice.
+                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Vieta = %s, Apr = %s, Apraksts = %s, Cena = %s,
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             elif category == categoryList[1]:
                 #marka, modelis, gads, motors, apraksts, cena
-                sqlUpdateDetails = '''UPDATE MotoTable SET Marka = %s, Modelis = %s, Gads = %s, Motors = %s, Apraksts = %s, Cena = %s, 
+                sqlUpdateDetails = '''UPDATE MotoTable SET Marka = %s, Modelis = %s, Gads = %s, Motors = %s, Vieta = %s, Apraksts = %s, Cena = %s, 
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             #detailsUpdated bool
             detailsList.append("1")

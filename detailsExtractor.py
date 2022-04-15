@@ -20,6 +20,12 @@ def getVehicleDetails(detailsPageLink):
         detailsNameList.append(varName.text)
     for varValue in baseTable.find_all('td', class_='ads_opt'):
         detailsValueList.append(varValue.text)
+    #gather contacts data
+    contactsTable = soup.find('table', class_='contacts_table')
+    for varName in contactsTable.find_all('td', class_='ads_contacts_name'):
+        detailsNameList.append(varName.text)
+    for varValue in contactsTable.find_all('td', class_='ads_contacts'):
+        detailsValueList.append(varValue.text)
 
     dictDetails = dict(zip(detailsNameList, detailsValueList))
 
@@ -48,7 +54,7 @@ def getVehicleDetails(detailsPageLink):
     checkLink = detailsPageLink[sepLocList[5]+1:sepLocList[6]]
 
     if checkLink == 'cars':
-        #marka, gads, motors, karba, nobr, krasa, virsb, apskate, apriko
+        #marka, gads, motors, karba, nobr, krasa, virsb, apskate, vieta, aprikojums, apraksts, cena
         detailsList = [
                 dictDetails.get('Marka ', ''),
                 dictDetails.get('Izlaiduma gads:', ''),
@@ -58,22 +64,25 @@ def getVehicleDetails(detailsPageLink):
                 dictDetails.get('Krāsa:', ''),
                 dictDetails.get('Virsbūves tips:', ''),
                 dictDetails.get('Tehniskā apskate:', ''),
+                dictDetails.get('Vieta:', ''),
                 equip_set,
                 description,
                 price
             ]
     elif checkLink == 'moto-transport':
-        #marka, modelis, gads, motors, apraksts, cena
+        #marka, modelis, gads, motors, vieta, apraksts, cena
         detailsList = [
             dictDetails.get('Marka:', ''),
             dictDetails.get('Modelis:', ''),
             dictDetails.get('Izlaiduma gads:', ''),
             dictDetails.get('Motora tilpums, cm3:', ''),
+            dictDetails.get('Vieta:', ''),
             description,
             price
         ]
+
     return detailsList
 
 
-print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/cars/volvo/xc90/bilhkg.html"))
+# print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/honda/ibxnp.html"))
 #print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/yamaha/fomho.html"))
