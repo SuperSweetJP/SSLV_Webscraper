@@ -7,12 +7,15 @@ import time
 import detailsExtractor
 from bs4 import BeautifulSoup
 import linkLists
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv()) 
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="dbuser",
-  password="anubissayshello",
-  database="sslv"
+    host=os.environ.get("SBHOST"),
+    user=os.environ.get("SBUSER"),
+    password=os.environ.get("SBDBPASS"),
+    database=os.environ.get("SBDB")
 )
 
 mycursor = mydb.cursor(buffered=True)
@@ -23,7 +26,8 @@ carCategoryList = linkLists.carCategoryList
 motorcycleCategoryList = linkLists.motorcycleCategoryList
 
 
-#scrape the list of items for links and headers
+#scrape the list of html items for links and headers
+#combine and return dictionary
 def scrapeListPage(pageLink):
     unique_link_set = list()
     unique_header_set = list()
@@ -49,7 +53,7 @@ def scrapeListPage(pageLink):
     resultDict = {unique_link_set[i]: unique_header_set[i] for i in range(len(unique_link_set))}
     return resultDict
 
-
+#loop through all pages in sub category(make of vehicle)
 def subCatPageLoop(catLink, subCat):
     #set global variables for category run
     global categoryLink
@@ -105,6 +109,7 @@ def processLinksDb(linkDict, subCategory):
 
         #if record found
         else:
+            #this was used early when had troubles with details updating, such cases are very rare now. (ex. value doesn't match field settings)
             if record[0][2] == 0:
                 print("need to update details for link: {}".format(parm[0]))
                 mysqlUpdateDetails(parm[0], parm[1], subCategory)
