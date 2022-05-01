@@ -53,8 +53,12 @@ def getVehicleDetails(detailsPageLink):
     sepLocList = find(detailsPageLink, '/')
     checkLink = detailsPageLink[sepLocList[5]+1:sepLocList[6]]
 
+    #PROCESS DATA
+    #Gads to int, remove month name
+    gadsMod = dictDetails.get('Izlaiduma gads:', '').split(" ", 1)[0]
+
     if checkLink == 'cars':
-        #marka, gads, motors, karba, nobr, krasa, virsb, apskate, vieta, aprikojums, apraksts, cena
+        #marka, gads, motors, karba, nobr, krasa, virsb, apskate, vieta, aprikojums, apraksts, cena, gadsMod
         detailsList = [
                 dictDetails.get('Marka ', ''),
                 dictDetails.get('Izlaiduma gads:', ''),
@@ -67,7 +71,8 @@ def getVehicleDetails(detailsPageLink):
                 dictDetails.get('Vieta:', ''),
                 equip_set,
                 description,
-                price
+                price,
+                gadsMod
             ]
     elif checkLink == 'moto-transport':
         #marka, modelis, gads, motors, vieta, apraksts, cena
@@ -78,11 +83,12 @@ def getVehicleDetails(detailsPageLink):
             dictDetails.get('Motora tilpums, cm3:', ''),
             dictDetails.get('Vieta:', ''),
             description,
-            price
+            price,
+            gadsMod
         ]
 
     return detailsList
 
 
-# print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/honda/ibxnp.html"))
-#print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/moto-transport/motorcycles/yamaha/fomho.html"))
+# print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/cars/citroen/c-elysee/bolkpg.html"))
+# print(getVehicleDetails("https://www.ss.lv/msg/lv/transport/cars/mazda/cx-5/cbcmig.html"))

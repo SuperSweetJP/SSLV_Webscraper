@@ -132,11 +132,11 @@ def mysqlUpdateDetails(link, header, category):
             detailsList = detailsExtractor.getVehicleDetails(link)
             if category == categoryList[0]:
                 #ToDo: this needs major rework, I could clearly not do this selecting twice.
-                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Vieta = %s, Apr = %s, Apraksts = %s, Cena = %s,
+                sqlUpdateDetails = '''UPDATE CarsTable SET Marka = %s, Gads = %s, Motors = %s, Karba = %s, Nobr = %s, Krasa = %s, Virsb = %s, Skate = %s, Vieta = %s, Apr = %s, Apraksts = %s, Cena = %s, GadsMod = %s,
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             elif category == categoryList[1]:
                 #marka, modelis, gads, motors, apraksts, cena
-                sqlUpdateDetails = '''UPDATE MotoTable SET Marka = %s, Modelis = %s, Gads = %s, Motors = %s, Vieta = %s, Apraksts = %s, Cena = %s, 
+                sqlUpdateDetails = '''UPDATE MotoTable SET Marka = %s, Modelis = %s, Gads = %s, Motors = %s, Vieta = %s, Apraksts = %s, Cena = %s, GadsMod = %s,
                     DetailsUpdated = %s WHERE link = %s AND Header = %s'''
             #detailsUpdated bool
             detailsList.append("1")
